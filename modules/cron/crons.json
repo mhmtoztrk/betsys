@@ -1,0 +1,58 @@
+{
+    "delete_sessions": {
+        "last_called": 1745519771,
+        "period": 86400
+    },
+    "delete_form_sessions": {
+        "last_called": 1745519771,
+        "period": 86400
+    },
+    "delete_form_submits": {
+        "last_called": 1745519771,
+        "period": 86400
+    },
+    "delete_tokens": {
+        "last_called": 1745519771,
+        "period": 86400
+    },
+    "delete_old_matches": {
+        "last_called": 1745519771,
+        "period": 86400
+    },
+    "get_upcoming_matches": {
+        "last_called": 1745495568,
+        "period": 43200
+    },
+    "get_upcoming_odds": {
+        "last_called": 1745495570,
+        "period": 43200
+    },
+    "update_active_slips_status": {
+        "last_called": 1745522050,
+        "period": 2
+    },
+    "evaluate_slips": {
+        "last_called": 1745522050,
+        "period": 2
+    },
+    "update_match_stats": {
+        "last_called": 1745522052,
+        "period": 5
+    },
+    "get_leagues": {
+        "last_called": 0,
+        "period": 86400
+    },
+    "update_live_odds": {
+        "last_called": 1745522052,
+        "period": 2
+    },
+    "update_match_status": {
+        "last_called": 1745522052,
+        "period": 2
+    },
+    "revert_expired_submits": {
+        "last_called": 1745522052,
+        "period": 1
+    }
+}
