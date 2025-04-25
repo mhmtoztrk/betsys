@@ -1,0 +1,602 @@
+{
+    "bet_slips": [
+      {
+        "COLUMN_NAME": "slip_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "uid",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "User who placed the bet slip"
+      },
+      {
+        "COLUMN_NAME": "total_stake",
+        "COLUMN_TYPE": "decimal(10,2)",
+        "COLUMN_COMMENT": "Total stake for combined bets"
+      },
+      {
+        "COLUMN_NAME": "total_odds",
+        "COLUMN_TYPE": "decimal(14,6)",
+        "COLUMN_COMMENT": "Total odds for the bet slip"
+      },
+      {
+        "COLUMN_NAME": "potential_payout",
+        "COLUMN_TYPE": "decimal(14,6)",
+        "COLUMN_COMMENT": "Potential payout"
+      },
+      {
+        "COLUMN_NAME": "bets_count",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Count of bets of slip"
+      },
+      {
+        "COLUMN_NAME": "bets",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": "Data of bets as json"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "enum('open','submitted','deactive','pending','won','lost','cancelled')",
+        "COLUMN_COMMENT": "Status by statuses of bets"
+      },
+      {
+        "COLUMN_NAME": "version",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Version by last update"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Record creation time"
+      },
+      {
+        "COLUMN_NAME": "updated_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "\tRecord update time"
+      },
+      {
+        "COLUMN_NAME": "submitted_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Submit time when user submit slip"
+      },
+      {
+        "COLUMN_NAME": "confirmed_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Confirmed time when cronjob confirms after submit"
+      }
+    ],
+    "bet_types": [
+      {
+        "COLUMN_NAME": "bet_type_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "api_key",
+        "COLUMN_TYPE": "varchar(100)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Status (active/passive)"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Creation timestamp"
+      },
+      {
+        "COLUMN_NAME": "updated_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Update timestamp"
+      }
+    ],
+    "bet_type_texts": [
+      {
+        "COLUMN_NAME": "text_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "bet_type_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Related bet type"
+      },
+      {
+        "COLUMN_NAME": "lang",
+        "COLUMN_TYPE": "varchar(5)",
+        "COLUMN_COMMENT": "Language code"
+      },
+      {
+        "COLUMN_NAME": "name",
+        "COLUMN_TYPE": "varchar(100)",
+        "COLUMN_COMMENT": "Bet type name"
+      },
+      {
+        "COLUMN_NAME": "description",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": "Bet type description"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Creation timestamp"
+      },
+      {
+        "COLUMN_NAME": "updated_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Update timestamp"
+      }
+    ],
+    "countries": [
+      {
+        "COLUMN_NAME": "country_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "name",
+        "COLUMN_TYPE": "varchar(100)",
+        "COLUMN_COMMENT": "Country name"
+      },
+      {
+        "COLUMN_NAME": "code",
+        "COLUMN_TYPE": "varchar(11)",
+        "COLUMN_COMMENT": "ISO code (e.g. ENG, TR)"
+      },
+      {
+        "COLUMN_NAME": "flag",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Flag file ID from the files table"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Timestamp when the record was created"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Record status: active, inactive, deleted"
+      }
+    ],
+    "credit_actions": [
+      {
+        "COLUMN_NAME": "crid",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "uid",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "User related to the transaction"
+      },
+      {
+        "COLUMN_NAME": "amount",
+        "COLUMN_TYPE": "decimal(10,2)",
+        "COLUMN_COMMENT": "Transaction amount"
+      },
+      {
+        "COLUMN_NAME": "type",
+        "COLUMN_TYPE": "enum('deposit','withdrawal','bet')",
+        "COLUMN_COMMENT": "Transaction type"
+      },
+      {
+        "COLUMN_NAME": "credit_way",
+        "COLUMN_TYPE": "enum('plus','minus')",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "slip_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "bet_slips table relation"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Transaction status: pending, completed, failed, cancelled"
+      },
+      {
+        "COLUMN_NAME": "method",
+        "COLUMN_TYPE": "varchar(50)",
+        "COLUMN_COMMENT": "Payment method (Cash, Bank, Crypto, etc.)"
+      },
+      {
+        "COLUMN_NAME": "note",
+        "COLUMN_TYPE": "varchar(127)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Transaction time"
+      }
+    ],
+    "leagues": [
+      {
+        "COLUMN_NAME": "league_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "name",
+        "COLUMN_TYPE": "varchar(100)",
+        "COLUMN_COMMENT": "Name of the league"
+      },
+      {
+        "COLUMN_NAME": "type",
+        "COLUMN_TYPE": "varchar(33)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "country",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "country_id from the countries table"
+      },
+      {
+        "COLUMN_NAME": "logo",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Logo file ID from the files table"
+      },
+      {
+        "COLUMN_NAME": "season",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Current season year"
+      },
+      {
+        "COLUMN_NAME": "start_date",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Season start timestamp"
+      },
+      {
+        "COLUMN_NAME": "end_date",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Season end timestamp"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Timestamp when the record was created"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Record status: active, inactive, deleted"
+      }
+    ],
+    "matches": [
+      {
+        "COLUMN_NAME": "match_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "fixture_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Fixture ID from external API"
+      },
+      {
+        "COLUMN_NAME": "league_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "League ID from API"
+      },
+      {
+        "COLUMN_NAME": "home_team_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Home team ID"
+      },
+      {
+        "COLUMN_NAME": "away_team_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Away team ID"
+      },
+      {
+        "COLUMN_NAME": "match_date",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Match start time (Unix Timestamp)"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Match status: upcoming, live, finished"
+      },
+      {
+        "COLUMN_NAME": "fixture_status",
+        "COLUMN_TYPE": "varchar(10)",
+        "COLUMN_COMMENT": "API short status like NS, 1H, FT"
+      },
+      {
+        "COLUMN_NAME": "home_score",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Home team score"
+      },
+      {
+        "COLUMN_NAME": "away_score",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Away team score"
+      },
+      {
+        "COLUMN_NAME": "odds_added",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": "If odds are added"
+      },
+      {
+        "COLUMN_NAME": "bookmaker_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Bookmaker ID used for odds"
+      },
+      {
+        "COLUMN_NAME": "match_data",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": "JSON encoded match data without odds"
+      },
+      {
+        "COLUMN_NAME": "match_odds",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": "JSON encoded odds data for the match"
+      },
+      {
+        "COLUMN_NAME": "stats",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": "Match statistics in JSON format"
+      },
+      {
+        "COLUMN_NAME": "current_minute",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Current minute of the match"
+      },
+      {
+        "COLUMN_NAME": "current_second",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Current second of the match"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Record creation time"
+      },
+      {
+        "COLUMN_NAME": "updated_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Last update time"
+      }
+    ],
+    "odds": [
+      {
+        "COLUMN_NAME": "odds_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "match_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Related match ID"
+      },
+      {
+        "COLUMN_NAME": "bookmaker_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Bookmaker (Bet provider) ID"
+      },
+      {
+        "COLUMN_NAME": "bet_type_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Related bet type ID"
+      },
+      {
+        "COLUMN_NAME": "value",
+        "COLUMN_TYPE": "varchar(50)",
+        "COLUMN_COMMENT": "Bet option (Ex: Home, Away, Draw)"
+      },
+      {
+        "COLUMN_NAME": "handicap",
+        "COLUMN_TYPE": "decimal(5,2)",
+        "COLUMN_COMMENT": "Handicap value if applicable"
+      },
+      {
+        "COLUMN_NAME": "odd_value",
+        "COLUMN_TYPE": "decimal(5,3)",
+        "COLUMN_COMMENT": "Odd value"
+      },
+      {
+        "COLUMN_NAME": "suspended",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": "Is the bet suspended?"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Record creation time"
+      },
+      {
+        "COLUMN_NAME": "updated_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Last update time"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": ""
+      }
+    ],
+    "teams": [
+      {
+        "COLUMN_NAME": "team_id",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "name",
+        "COLUMN_TYPE": "varchar(100)",
+        "COLUMN_COMMENT": "Full name of the team"
+      },
+      {
+        "COLUMN_NAME": "short_name",
+        "COLUMN_TYPE": "varchar(50)",
+        "COLUMN_COMMENT": "Short or common name of the team"
+      },
+      {
+        "COLUMN_NAME": "country",
+        "COLUMN_TYPE": "varchar(50)",
+        "COLUMN_COMMENT": "Country where the team is based"
+      },
+      {
+        "COLUMN_NAME": "logo",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Logo file ID from the files table"
+      },
+      {
+        "COLUMN_NAME": "logo_icon_path",
+        "COLUMN_TYPE": "varchar(55)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "founded",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Year the team was founded"
+      },
+      {
+        "COLUMN_NAME": "created_at",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "Timestamp when the record was created"
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "varchar(15)",
+        "COLUMN_COMMENT": "Record status: active, inactive, deleted"
+      }
+    ],
+    "z_users": [
+      {
+        "COLUMN_NAME": "uid",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "username",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "mail",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "pass",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "role",
+        "COLUMN_TYPE": "varchar(33)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "name",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "surname",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "full_name",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "image",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "tel",
+        "COLUMN_TYPE": "varchar(55)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "address",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "gender",
+        "COLUMN_TYPE": "varchar(255)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "birthday",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "data",
+        "COLUMN_TYPE": "longtext",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "mail_verify",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "set_pwd",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "balance",
+        "COLUMN_TYPE": "decimal(10,2)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "open_bet_slip",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": "User's currently open bet slip"
+      },
+      {
+        "COLUMN_NAME": "total_stake",
+        "COLUMN_TYPE": "decimal(10,2)",
+        "COLUMN_COMMENT": "Total stake amount spent on bets"
+      },
+      {
+        "COLUMN_NAME": "total_winnings",
+        "COLUMN_TYPE": "decimal(10,2)",
+        "COLUMN_COMMENT": "Total winnings earned from bets"
+      },
+      {
+        "COLUMN_NAME": "lang",
+        "COLUMN_TYPE": "varchar(33)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "access",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "last_login",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "active",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "created",
+        "COLUMN_TYPE": "int",
+        "COLUMN_COMMENT": ""
+      },
+      {
+        "COLUMN_NAME": "status",
+        "COLUMN_TYPE": "tinyint(1)",
+        "COLUMN_COMMENT": ""
+      }
+    ]
+  }
