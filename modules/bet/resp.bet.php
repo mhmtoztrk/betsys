@@ -56,6 +56,7 @@ class Bet
 
             $slip_reload = FALSE;
             $slip_reload_required = FALSE;
+
             $alert_message = FALSE;
             $slip_message = FALSE;
 
@@ -182,9 +183,6 @@ class Bet
                     break;
             }
 
-            $callback['alert_message'] = $alert_message;
-            $callback['slip_message'] = $slip_message;
-
             if($slip_reload){
                 $callback['status'] = 1;
 
@@ -203,6 +201,9 @@ class Bet
                     </div>
                 ';
             }
+
+            if ($alert_message)$callback['actions']['alert_message'] = $alert_message;
+            if ($slip_message)$callback['actions']['slip_message'] = $slip_message;
         }
     
         echo json_encode($callback);

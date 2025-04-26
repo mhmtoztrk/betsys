@@ -6,6 +6,7 @@ class BetSlip {
 
     private $lang;
     private $view_type;
+    private $slip;
 
     public function __construct($pars = []) {
         $this->lang = $pars['lang'] ?? current_lang();
@@ -20,59 +21,64 @@ class BetSlip {
      */
     public function render_content($slip) {
 
-        $output = '<div class="page-deactive"></div>';
+        $this->slip = $slip;
 
-        $output .= '<div id="bet-slip-container">';
+        if (!$slip) {
+            return '<div class="bet-slip empty">'.t('No_Bet_Slip').'</div>';
+        }
 
-            $output .= '<div class="slip-overlay"><div class="loading-icon">'.LOADING_ICON.'</div></div>';
+        $bet_count = (int)($slip['bets_count'] ?? 0);
 
-            if (!$slip) {
-                return '<div class="bet-slip empty">'.t('No_Bet_Slip').'</div>';
-            }
+        $texts = $this->ui_texts();
 
-            $bet_count = (int)($slip['bets_count'] ?? 0);
+        $attrs = [
+            'class' => ['bet-slip', 'bet-slip-'.$slip['status']],
+            'data-texts' => htmlspecialchars(json_encode($texts), ENT_QUOTES, 'UTF-8'),
+            'data-version' => $slip['version'] ?? 1,
+        ];
+        $reset_attrs = [
+            'class' => ['reset-slip-button']
+        ];
 
-            $texts = $this->ui_texts();
+        if($slip['status'] == 'submitted'){
+            $attrs['class'][] = 'bet-slip-disabled';
+            $reset_attrs['class'][] = 'disabled';
+        }
 
-            $attrs = [
-                'class' => ['bet-slip', 'bet-slip-'.$slip['status']],
-                'data-texts' => htmlspecialchars(json_encode($texts), ENT_QUOTES, 'UTF-8'),
-                'data-version' => $slip['version'] ?? 1,
-            ];
-
-            $output .= '<div ' . attrs_output($attrs) . '>';
+        $output = '<div ' . attrs_output($attrs) . '>';
             
-            $output .= $this->render_header($slip);
+            $output .= $this->render_header();
 
             $output .= '<div class="bet-slip-body">';
 
-                if ($bet_count > 0) $output .= '<div class="bet-slip-reset"><div class="reset-slip-button">'.CLEAR_ICON.$texts['clear_all'].'</div></div>';
-                $output .= $this->render_matches($slip);
+                if ($bet_count > 0) {
+                    $output .= '<div class="bet-slip-reset"><div'.attrs_output($reset_attrs).'>'.CLEAR_ICON.$texts['clear_all'].'</div></div>';
+                }
+
+                $output .= $this->render_matches();
 
             $output .= '</div>';
 
-            if ($bet_count > 0) $output .= $this->render_footer($slip);
-
-            $output .= '</div>';
+            if ($bet_count > 0) $output .= $this->render_footer();
 
         $output .= '</div>';
 
         return $output;
     }
 
-    public function render_header($slip) {
+    public function render_header() {
         $texts = $this->ui_texts();
     
-        $total_odds = floor($slip['total_odds'] * 100) / 100;
+        $total_odds = floor($this->slip['total_odds'] * 100) / 100;
     
         $attrs = [
             'class' => ['bet-slip-header'],
             'data-toggle' => 'bet-slip-body',
         ];
 
-        $bet_count = (int)($slip['bets_count'] ?? 0);
+        $bet_count = (int)($this->slip['bets_count'] ?? 0);
 
-        if (empty($slip['bets'])){
+        if (empty($this->slip['bets'])){
             $title = $texts['bet_slip'];
         }else{
 
@@ -98,8 +104,8 @@ class BetSlip {
         return $output;
     }
     
-    public function render_matches($slip) {
-        $bets = $slip['bets'] ?? [];
+    public function render_matches() {
+        $bets = $this->slip['bets'] ?? [];
     
         if (empty($bets)) {
             return '<div class="no-bets">' . $this->ui_texts()['no_bets_selected'] . '</div>';
@@ -139,6 +145,8 @@ class BetSlip {
     }
 
     public function render_bet($match_id, $bet_type_id, $bet) {
+        $ui_texts = $this->ui_texts($this->lang);
+
         $label = htmlspecialchars($bet['name'] ?? '');
         $value = htmlspecialchars($bet['bet_value'] ?? '');
         $odd = number_format((float)($bet['odd_value'] ?? 0), 2);
@@ -165,8 +173,15 @@ class BetSlip {
                 $output .= '</div>';
             $output .= '</div>';
     
+            $remove_attrs = [
+                'title' => $ui_texts['remove_title'],
+                'class' => ['bet-remove'],
+            ];
+            if($this->slip['status'] == 'submitted'){
+                $remove_attrs['class'][] = 'disabled';
+            }
             // Remove button
-            $output .= '<div class="bet-remove" title="Remove">×</div>';
+            $output .= '<div'.attrs_output($remove_attrs).'>×</div>';
         $output .= '</div>';
     
         return $output;
@@ -178,10 +193,10 @@ class BetSlip {
      * @param array $slip
      * @return string
      */
-    private function render_footer($slip) {
-        $stake = $slip['total_stake'] ?? 0;
-        $total_odds = $slip['total_odds'] ?? 1;
-        $potential_payout = $slip['potential_payout'] ?? 0;
+    private function render_footer() {
+        $stake = $this->slip['total_stake'] ?? 0;
+        $total_odds = $this->slip['total_odds'] ?? 1;
+        $potential_payout = $this->slip['potential_payout'] ?? 0;
 
         $ui_texts = $this->ui_texts($this->lang);
 
@@ -192,9 +207,21 @@ class BetSlip {
             $output .= '<div class="row">';
 
                 // Stake input
+                $stake_attrs = [
+                    'type' => 'number',
+                    'step' => '0.01',
+                    'min' => '0',
+                    'name' => 'stake',
+                    'value' => htmlspecialchars($stake),
+                    'class' => ['stake-input', 'form-control'],
+                ];
+                if($this->slip['status'] == 'submitted'){
+                    $stake_attrs['class'][] = 'disabled';
+                }
+
                 $output .= '<div class="bet-slip-stake bs-footer-col col-6 col-sm-4">';
                     $output .= '<label>' . htmlspecialchars($ui_texts['stake']) . ' (€)</label>';
-                    $output .= '<div class="bss-footer-val"><input class="stake-input form-control" type="number" step="0.01" min="0" name="stake" value="' . htmlspecialchars($stake) . '" /></div>';
+                    $output .= '<div class="bss-footer-val"><input'.attrs_output($stake_attrs).' /></div>';
                 $output .= '</div>';
 
                 // Total odds
@@ -217,7 +244,7 @@ class BetSlip {
 
                 // Confirm button
                 $output .= '<div class="deposit-slip-submit bs-footer-col col-12 col-sm-4">';
-                    if ($slip['status'] == 'submitted') {
+                    if ($this->slip['status'] == 'submitted') {
                         $output .= '<div class="slip-delay-warning">'.$ui_texts['slip_delay_warning'].'</div>';
                         $output .= '<div class="slip-delay-title">'.$ui_texts['slip_delay_title'].'</div>';
                         $output .= '<div class="slip-delay-description">'.$ui_texts['slip_delay_desc'].'</div>';
@@ -257,6 +284,7 @@ class BetSlip {
             'slip_delay_warning' => 'Please Wait',
             'slip_delay_title' => 'Your slip will be saved in <b>'.SLIP_DELAY.'</b> seconds',
             'slip_delay_desc' => 'This is for security against live odds changes',
+            'remove_title' => 'Remove',
         ];
     }
 

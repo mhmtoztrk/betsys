@@ -52,7 +52,7 @@ function getBetSlipTexts() {
     const el = document.querySelector('.bet-slip');
     if (!el) return {};
 
-    const raw = el.getAttribute('data-texts'); // ham string gelir
+    const raw = el.getAttribute('data-texts');
     if (!raw) return {};
 
     try {
@@ -61,6 +61,20 @@ function getBetSlipTexts() {
         console.warn('Invalid JSON in data-texts:', raw);
         return {};
     }
+}
+
+function slipAlert(message, type = 'warning') {
+    var $alert = $('<div class="slip-alert slip-alert-' + type + '">' + message + '</div>');
+
+    $('body').append($alert);
+
+    $alert.hide().fadeIn(200);
+
+    setTimeout(function() {
+        $alert.fadeOut(300, function() {
+            $(this).remove();
+        });
+    }, 2000);
 }
 
 function betSlipMessage(message, type = 'warning'){
@@ -81,10 +95,10 @@ function deactivateBetSlip() {
     slip.find('input, button, select, textarea').prop('disabled', true);
 
     // Disable the reset slip link
-    slip.find('.reset-slip').addClass('disabled').css('pointer-events', 'none');
+    slip.find('.reset-slip-button').addClass('disabled').css('pointer-events', 'none');
 
     // Disable all remove bet buttons
-    slip.find('.remove-bet').addClass('disabled').css('pointer-events', 'none');
+    slip.find('.bet-remove').addClass('disabled').css('pointer-events', 'none');
 
     // Disable all odds selection elements across the page
     $('.bet-create').addClass('disabled').css('pointer-events', 'none');
@@ -100,10 +114,10 @@ function activateBetSlip() {
     slip.find('input, button, select, textarea').prop('disabled', false);
 
     // Enable the reset slip link
-    slip.find('.reset-slip').removeClass('disabled').css('pointer-events', '');
+    slip.find('.reset-slip-button').removeClass('disabled').css('pointer-events', '');
 
     // Enable all remove bet buttons
-    slip.find('.remove-bet').removeClass('disabled').css('pointer-events', '');
+    slip.find('.bet-remove').removeClass('disabled').css('pointer-events', '');
 
     // Enable all odds selection elements across the page
     $('.bet-create').removeClass('disabled').css('pointer-events', '');
@@ -120,7 +134,8 @@ function deactivateTotalStakeInput() {
 function isDisabledClick($el, e) {
     if ($el.hasClass('disabled')) {
         e.preventDefault();
-        alert('Bet slip is currently locked.');
+        let texts = getBetSlipTexts();
+        slipAlert(texts.slip_disabled_error, 'error');
         return true;
     }
     return false;

@@ -69,6 +69,7 @@ $(document).ready(function() {
 
         bet_action('create_bet', data, function(response) {
             applyBetResponse(response);
+            activateBetSlip();
         });
 
     });
@@ -88,6 +89,7 @@ $(document).ready(function() {
 
         bet_action('remove_bet', data, function(response) {
             applyBetResponse(response);
+            activateBetSlip();
         });
 
     });
@@ -108,6 +110,7 @@ $(document).ready(function() {
             
             bet_action('update_stake', { stake: value }, function(response) {
                 applyBetResponse(response);
+                activateBetSlip();
             });
 
         }, 700);
@@ -120,6 +123,7 @@ $(document).ready(function() {
             
         bet_action('load_updated_slip', {}, function(response) {
             applyBetResponse(response);
+            activateBetSlip();
         });
 
     });
