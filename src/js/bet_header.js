@@ -71,24 +71,42 @@ function emptySlipMessage(){
     $('.slip-message').html('');
 }
 
-function activateSlip() {
-    $('.slip-overlay').css('visibility', 'hidden');
-    $('.deposit-slip-button').prop("disabled",false);
+function deactivateBetSlip() {
+    var slip = $('.bet-slip');
+
+    // Add a disabled class to the slip for visual indication
+    slip.addClass('bet-slip-disabled');
+
+    // Disable all form elements inside the slip
+    slip.find('input, button, select, textarea').prop('disabled', true);
+
+    // Disable the reset slip link
+    slip.find('.reset-slip').addClass('disabled').css('pointer-events', 'none');
+
+    // Disable all remove bet buttons
+    slip.find('.remove-bet').addClass('disabled').css('pointer-events', 'none');
+
+    // Disable all odds selection elements across the page
+    $('.bet-create').addClass('disabled').css('pointer-events', 'none');
 }
 
-function deactivateSlip() {
-    $('.slip-overlay').css('visibility', 'unset');
-    $('.deposit-slip-button').prop("disabled",true);
-}
+function activateBetSlip() {
+    var slip = $('.bet-slip');
 
-function activateSlipButton() {
-    $('.deposit-slip-button').prop("disabled",false);
-    $('.deposit-slip-button').removeClass('deactive-slip-button');
-}
+    // Remove the disabled class from the slip
+    slip.removeClass('bet-slip-disabled');
 
-function deactivateSlipButton() {
-    $('.deposit-slip-button').prop("disabled",true);
-    $('.deposit-slip-button').addClass('deactive-slip-button');
+    // Enable all form elements inside the slip
+    slip.find('input, button, select, textarea').prop('disabled', false);
+
+    // Enable the reset slip link
+    slip.find('.reset-slip').removeClass('disabled').css('pointer-events', '');
+
+    // Enable all remove bet buttons
+    slip.find('.remove-bet').removeClass('disabled').css('pointer-events', '');
+
+    // Enable all odds selection elements across the page
+    $('.bet-create').removeClass('disabled').css('pointer-events', '');
 }
 
 function activateTotalStakeInput() {
@@ -97,6 +115,15 @@ function activateTotalStakeInput() {
 
 function deactivateTotalStakeInput() {
     $('.stake-input').prop("disabled",true);
+}
+
+function isDisabledClick($el, e) {
+    if ($el.hasClass('disabled')) {
+        e.preventDefault();
+        alert('Bet slip is currently locked.');
+        return true;
+    }
+    return false;
 }
 
 function filter_leagues() {

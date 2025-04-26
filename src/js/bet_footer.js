@@ -20,15 +20,16 @@ $(document).ready(function() {
         
     }
 
-    $(document).on('click', '.deposit-slip-button', function() {
+    $(document).on('click', '.deposit-slip-button', function(e) {
 
         emptySlipMessage();
 
         const value = $('.stake-input').val();
 
         if (value > 0) {
+            if (isDisabledClick($(this), e)) return;
 
-            deactivateSlip();
+            deactivateBetSlip();
             
             bet_action('submit_slip', {}, function(response) {
                 applyBetResponse(response);
@@ -43,9 +44,10 @@ $(document).ready(function() {
 
     });
 
-    $(document).on('click', '.reset-slip-button', function() {
+    $(document).on('click', '.reset-slip-button', function(e) {
+        if (isDisabledClick($(this), e)) return;
         
-        deactivateSlipButton();
+        deactivateBetSlip();
 
         bet_action('reset_slip', {}, function(response) {
             applyBetResponse(response);
@@ -53,9 +55,10 @@ $(document).ready(function() {
 
     });
 
-    $(document).on('click', '.bet-create', function() {
+    $(document).on('click', '.bet-create', function(e) {
+        if (isDisabledClick($(this), e)) return;
         
-        deactivateSlipButton();
+        deactivateBetSlip();
 
         const data = {
             'match_id' : $(this).data('match_id'),
@@ -70,9 +73,10 @@ $(document).ready(function() {
 
     });
 
-    $(document).on('click', '.bet-remove', function() {
+    $(document).on('click', '.bet-remove', function(e) {
+        if (isDisabledClick($(this), e)) return;
         
-        deactivateSlipButton();
+        deactivateBetSlip();
 
         const betRow = $(this).closest('.slip-bet');
         
@@ -89,11 +93,12 @@ $(document).ready(function() {
     });
 
     let stakeTimer;
-    $(document).on('input', '.stake-input', function () {
+    $(document).on('input', '.stake-input', function (e) {
+        if (isDisabledClick($(this), e)) return;
 
         $('.bet-slip-payout').addClass('slip-payout-waiting');
         
-        deactivateSlipButton();
+        deactivateBetSlip();
 
         const value = $(this).val();
     
@@ -110,6 +115,8 @@ $(document).ready(function() {
     });
 
     $(document).on('click', '.load-updated-slip', function() {
+        
+        deactivateBetSlip();
             
         bet_action('load_updated_slip', {}, function(response) {
             applyBetResponse(response);
