@@ -33,12 +33,14 @@ class Bet
 
     public function bet_action($action){
         set_layout('json');
+
+        global $user;
     
         $callback['status'] = 0;
+        $callback['actions'] = [];
         $data = $_POST ?? [];
-    
-        global $user;
-        if ($user['uid'] > 0 && $user['role'] == 'standard') {
+        
+        if ($user['uid'] > 0 && $user['role'] == 'standard' && isset($data['_token']) && $data['_token'] == $user['csrf_token']) {
     
             $callback['status'] = 0;
             $uid = $user['uid'];
@@ -64,6 +66,8 @@ class Bet
                 'lang' => $data['lang'],
                 'view_type' => 'front',
             ]);
+
+            $texts = $bet_slip_ui->ui_texts();
     
             switch ($action) {
     
@@ -82,16 +86,22 @@ class Bet
 
                             if ($submit['error'] == 'max_winnings_exceeded') {
 
-                                $slip_message = [
-                                    'type' => 'error',
-                                    'value' => $bet_slip_ui->ui_texts()['max_winnings_message'],
+                                $callback['actions'][] = [
+                                    'type' => 'slip_message',
+                                    'pars' => [
+                                        'message_type' => 'error',
+                                        'message' => htmlspecialchars($texts['max_winnings_message'] ?? '')
+                                    ]
                                 ];
 
                             }elseif ($submit['error'] == 'balance_exceeded') {
 
-                                $slip_message = [
-                                    'type' => 'error',
-                                    'value' => $bet_slip_ui->ui_texts()['balance_exceeded_message'],
+                                $callback['actions'][] = [
+                                    'type' => 'slip_message',
+                                    'pars' => [
+                                        'message_type' => 'error',
+                                        'message' => htmlspecialchars($texts['balance_exceeded_message'] ?? '')
+                                    ]
                                 ];
 
                             }
@@ -114,6 +124,14 @@ class Bet
 
                     $slip_reload = TRUE;
 
+                    $callback['actions'][] = [
+                        'type' => 'alert_message',
+                        'pars' => [
+                            'message_type' => 'warning',
+                            'message' => htmlspecialchars($texts['clear_all_message'] ?? '')
+                        ]
+                    ];
+
                     break;
     
                 case 'create_bet':
@@ -130,6 +148,22 @@ class Bet
 
                         $slip_reload = TRUE;
 
+                        $callback['actions'][] = [
+                            'type' => 'highlight',
+                            'pars' => [
+                                'highlight_type' => 'added',
+                                'selector' => '.bet-slip-header'
+                            ]
+                        ];
+
+                        $callback['actions'][] = [
+                            'type' => 'alert_message',
+                            'pars' => [
+                                'message_type' => 'success',
+                                'message' => htmlspecialchars($texts['bet_created'] ?? '')
+                            ]
+                        ];
+
                     }else{
 
                         $slip_reload_required = TRUE;
@@ -145,6 +179,14 @@ class Bet
                         $bs->remove_bet($slip_id, $data['match_id'], $data['bet_type_id']);
 
                         $slip_reload = TRUE;
+
+                        $callback['actions'][] = [
+                            'type' => 'alert_message',
+                            'pars' => [
+                                'message_type' => 'warning',
+                                'message' => htmlspecialchars($texts['bet_removed'] ?? '')
+                            ]
+                        ];
 
                     }else{
 
@@ -174,6 +216,14 @@ class Bet
 
                     $slip_reload = TRUE;
 
+                    $callback['actions'][] = [
+                        'type' => 'alert_message',
+                        'pars' => [
+                            'message_type' => 'success',
+                            'message' => htmlspecialchars($texts['slip_loaded'] ?? '')
+                        ]
+                    ];
+
                     break;
     
                 default:
@@ -188,22 +238,32 @@ class Bet
 
                 $slip = $bs->load($slip_id);
 
-                $callback['actions']['slip_html'] = $bet_slip_ui->render_content($slip);
+                $slip_html_action = [
+                    'type' => 'slip_html',
+                    'pars' => [
+                        'output' => $bet_slip_ui->render_content($slip),
+                    ],
+                ];
             }
 
             if($slip_reload_required){
                 $callback['status'] = 1;
 
-                $callback['actions']['slip_html'] = '
-                    <div class="slip-reload-required">
-                        <div class="srr-warning">'.$bet_slip_ui->ui_texts()['srr_warning'].'</div>
-                        <button class="load-updated-slip">'.$bet_slip_ui->ui_texts()['srr_button'].'</button>
-                    </div>
-                ';
+                $slip_html_action = [
+                    'type' => 'slip_html',
+                    'pars' => [
+                        'output' => '
+                            <div class="slip-reload-required">
+                                <div class="srr-warning">'.$bet_slip_ui->ui_texts()['srr_warning'].'</div>
+                                <button class="load-updated-slip">'.$bet_slip_ui->ui_texts()['srr_button'].'</button>
+                            </div>
+                        ',
+                    ],
+                ];
             }
 
-            if ($alert_message)$callback['actions']['alert_message'] = $alert_message;
-            if ($slip_message)$callback['actions']['slip_message'] = $slip_message;
+            if(isset($slip_html_action)) array_unshift($callback['actions'], $slip_html_action);
+
         }
     
         echo json_encode($callback);

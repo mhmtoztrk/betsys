@@ -17,10 +17,42 @@ function slipData(){
     return data;
 }
 
+// Read CSRF token from script tag
+function getCsrfToken() {
+    const script = document.getElementById('wscr');
+    if (!script) {
+        console.warn('CSRF token script not found.');
+        return '';
+    }
+    try {
+        return JSON.parse(script.textContent);
+    } catch (e) {
+        console.error('Failed to parse CSRF token:', e);
+        return '';
+    }
+}
+
+function highlightElement(selector, type = null) {
+    const el = document.querySelector(selector);
+    if (!el) return;
+
+    let baseClass = 'highlight';
+    if (type) {
+        baseClass += '-' + type;
+    }
+
+    el.classList.add(baseClass);
+
+    setTimeout(() => {
+        el.classList.remove(baseClass);
+    }, 800);
+}
+
 function bet_action(action, data, callback) {
     var slip_data = slipData();
     data.lang = slip_data.lang;
     data.version = slip_data.version;
+    data._token = getCsrfToken();
     
     $.ajax({
         url: BASE_PATH + '/bet-action/' + action,
@@ -37,12 +69,35 @@ function bet_action(action, data, callback) {
 }
 
 function applyBetResponse(response) {
+    
     if (response.status) {
 
         const actions = response.actions;
 
-        if ('slip_html' in actions) {
-            $(SLIP_CONTAINER).html(actions.slip_html);
+        for (let index = 0; index < actions.length; index++) {
+
+            const action = actions[index];
+            const type = action.type;
+            const pars = action.pars;
+
+            if (type === 'slip_html') {
+
+                $(SLIP_CONTAINER).html(pars.output);
+
+            }else if (type === 'alert_message') {
+
+                slipAlert(pars.message, pars.message_type);
+
+            }else if (type === 'slip_message') {
+
+                betSlipMessage(pars.message, pars.message_type);
+
+            }else if (type === 'highlight') {
+
+                highlightElement(pars.selector, pars.highlight_type);
+
+            }
+
         }
 
     }
