@@ -84,6 +84,18 @@ function applyBetResponse(response) {
 
                 $(SLIP_CONTAINER).html(pars.output);
 
+            }else if (type === 'update_match_header') {
+
+                $('.header-content').html(pars.output);
+
+            }else if (type === 'update_odds') {
+
+                // c_log(pars.odds);
+
+            }else if (type === 'update_stats') {
+
+                $('#tab-stats').html(pars.output);
+
             }else if (type === 'alert_message') {
 
                 slipAlert(pars.message, pars.message_type);

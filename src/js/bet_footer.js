@@ -10,13 +10,13 @@ $(document).ready(function() {
 
         if(slip_data.list_type == 'detail') pagePars.match_id = slip_data.match_id;
         
-        // setInterval(function () {
+        setInterval(function () {
 
-        //     bet_action('update_all', pagePars, function(response) {
-        //         applyBetResponse(response);
-        //     });
+            bet_action('updates', pagePars, function(response) {
+                applyBetResponse(response);
+            });
 
-        // }, 2000);
+        }, 2000);
         
     }
 

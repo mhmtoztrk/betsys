@@ -71,7 +71,66 @@ class Bet
     
             switch ($action) {
     
-                case 'update_all':
+                case 'updates':
+                    
+                    if(!$version_check){
+                        $slip_reload_required = TRUE;
+                    }
+
+                    $list_type = $data['list_type'];
+
+                    if ($list_type == 'list') {
+
+                        # code...
+
+                    }elseif ($list_type == 'detail') {
+
+                        $match_id = $data['match_id'];
+
+                        $mtch = new \Matches();
+                        $match = $mtch->get_full($match_id);
+
+                        if ($match) {
+                                
+                            $callback['status'] = 1;
+
+                            $mtch_detail_ui = new \BetUi\MatchDetail([
+                                'view_type' => 'front',
+                                'lang' => $data['lang'],
+                            ]);
+
+                            $callback['actions'][] = [
+                                'type' => 'update_match_header',
+                                'pars' => [
+                                    'output' => $mtch_detail_ui->render_header($match),
+                                ]
+                            ];
+
+                            if(!empty($match['odds'])){
+
+                                $callback['actions'][] = [
+                                    'type' => 'update_odds',
+                                    'pars' => [
+                                        'odds' => $match['odds'],
+                                    ]
+                                ];
+
+                            }
+
+                            if(!empty($match['stats'])){
+
+                                $callback['actions'][] = [
+                                    'type' => 'update_stats',
+                                    'pars' => [
+                                        'output' => $mtch_detail_ui->render_stats($match['stats']),
+                                    ]
+                                ];
+
+                            }
+
+                        }
+
+                    }
                     
 
                     break;
@@ -254,8 +313,8 @@ class Bet
                     'pars' => [
                         'output' => '
                             <div class="slip-reload-required">
-                                <div class="srr-warning">'.$bet_slip_ui->ui_texts()['srr_warning'].'</div>
-                                <button class="load-updated-slip">'.$bet_slip_ui->ui_texts()['srr_button'].'</button>
+                                <div class="srr-warning">'.$texts['srr_warning'].'</div>
+                                <button class="load-updated-slip">'.$texts['srr_button'].'</button>
                             </div>
                         ',
                     ],
