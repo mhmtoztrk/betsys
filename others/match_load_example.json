@@ -49,84 +49,6 @@
     "home_score": 0,
     "away_score": 2
   },
-  "stats": {
-    "Shots on Goal": [
-      9,
-      3
-    ],
-    "Shots off Goal": [
-      5,
-      3
-    ],
-    "Total Shots": [
-      19,
-      7
-    ],
-    "Blocked Shots": [
-      5,
-      1
-    ],
-    "Shots insidebox": [
-      11,
-      5
-    ],
-    "Shots outsidebox": [
-      8,
-      2
-    ],
-    "Fouls": [
-      10,
-      11
-    ],
-    "Corner Kicks": [
-      7,
-      2
-    ],
-    "Offsides": [
-      0,
-      5
-    ],
-    "Ball Possession": [
-      "72%",
-      "28%"
-    ],
-    "Yellow Cards": [
-      1,
-      1
-    ],
-    "Red Cards": [
-      null,
-      null
-    ],
-    "Goalkeeper Saves": [
-      0,
-      7
-    ],
-    "Total passes": [
-      683,
-      271
-    ],
-    "Passes accurate": [
-      621,
-      204
-    ],
-    "Passes %": [
-      "91%",
-      "75%"
-    ],
-    "expected_goals": [
-      "1.38",
-      "0.91"
-    ],
-    "goals_prevented": [
-      0,
-      0
-    ]
-  },
-  "current_minute": 90,
-  "extra_minute": 4,
-  "created_at": 1746040981,
-  "updated_at": 1746094136,
   "odds": {
     "1": {
       "Home": {
@@ -1728,5 +1650,283 @@
         "suspended": 0
       }
     }
-  }
+  },
+  "stats": {
+    "Shots on Goal": [
+      9,
+      3
+    ],
+    "Shots off Goal": [
+      5,
+      3
+    ],
+    "Total Shots": [
+      19,
+      7
+    ],
+    "Blocked Shots": [
+      5,
+      1
+    ],
+    "Shots insidebox": [
+      11,
+      5
+    ],
+    "Shots outsidebox": [
+      8,
+      2
+    ],
+    "Fouls": [
+      10,
+      11
+    ],
+    "Corner Kicks": [
+      7,
+      2
+    ],
+    "Offsides": [
+      0,
+      5
+    ],
+    "Ball Possession": [
+      "72%",
+      "28%"
+    ],
+    "Yellow Cards": [
+      1,
+      1
+    ],
+    "Red Cards": [
+      null,
+      null
+    ],
+    "Goalkeeper Saves": [
+      0,
+      7
+    ],
+    "Total passes": [
+      683,
+      271
+    ],
+    "Passes accurate": [
+      621,
+      204
+    ],
+    "Passes %": [
+      "91%",
+      "75%"
+    ],
+    "expected_goals": [
+      "1.38",
+      "0.91"
+    ],
+    "goals_prevented": [
+      0,
+      0
+    ]
+  },
+  "events": [
+    {
+      "minute": 1,
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "team_id": 505,
+      "player_id": 21509,
+      "player_name": "M. Thuram",
+      "assist_id": 226,
+      "assist_name": "D. Dumfries",
+      "comments": null
+    },
+    {
+      "minute": 21,
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "team_id": 505,
+      "player_id": 226,
+      "player_name": "D. Dumfries",
+      "assist_id": 1836,
+      "assist_name": "F. Acerbi",
+      "comments": null
+    },
+    {
+      "minute": 24,
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "team_id": 529,
+      "player_id": 386828,
+      "player_name": "Lamine Yamal",
+      "assist_id": null,
+      "assist_name": "",
+      "comments": null
+    },
+    {
+      "minute": 38,
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "team_id": 529,
+      "player_id": 931,
+      "player_name": "Ferran Torres",
+      "assist_id": 1496,
+      "assist_name": "Raphinha",
+      "comments": null
+    },
+    {
+      "minute": 42,
+      "type": "subst",
+      "detail": "Substitution 1",
+      "team_id": 529,
+      "player_id": 1257,
+      "player_name": "J. Koundé",
+      "assist_id": 619,
+      "assist_name": "Eric García",
+      "comments": null
+    },
+    {
+      "minute": 46,
+      "type": "subst",
+      "detail": "Substitution 2",
+      "team_id": 529,
+      "player_id": 181701,
+      "player_name": "Gerard Martín",
+      "assist_id": 101814,
+      "assist_name": "R. Araujo",
+      "comments": null
+    },
+    {
+      "minute": 46,
+      "type": "subst",
+      "detail": "Substitution 1",
+      "team_id": 505,
+      "player_id": 217,
+      "player_name": "L. Martínez",
+      "assist_id": 42315,
+      "assist_name": "M. Taremi",
+      "comments": null
+    },
+    {
+      "minute": 56,
+      "type": "subst",
+      "detail": "Substitution 2",
+      "team_id": 505,
+      "player_id": 31010,
+      "player_name": "F. Dimarco",
+      "assist_id": 10238,
+      "assist_name": "Carlos Augusto",
+      "comments": null
+    },
+    {
+      "minute": 59,
+      "type": "Card",
+      "detail": "Yellow Card",
+      "team_id": 505,
+      "player_id": 1640,
+      "player_name": "Hakan Çalhanoğlu",
+      "assist_id": null,
+      "assist_name": "",
+      "comments": "Foul"
+    },
+    {
+      "minute": 63,
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "team_id": 505,
+      "player_id": 226,
+      "player_name": "D. Dumfries",
+      "assist_id": 1640,
+      "assist_name": "H. Çalhanoğlu",
+      "comments": null
+    },
+    {
+      "minute": 65,
+      "type": "Goal",
+      "detail": "Own Goal",
+      "team_id": 529,
+      "player_id": 2802,
+      "player_name": "Y. Sommer",
+      "assist_id": null,
+      "assist_name": "",
+      "comments": null
+    },
+    {
+      "minute": 68,
+      "type": "subst",
+      "detail": "Substitution 3",
+      "team_id": 529,
+      "player_id": 1323,
+      "player_name": "Dani Olmo",
+      "assist_id": 340626,
+      "assist_name": "Fermín López",
+      "comments": null
+    },
+    {
+      "minute": 70,
+      "type": "Card",
+      "detail": "Yellow Card",
+      "team_id": 529,
+      "player_id": 396623,
+      "player_name": "Pau Cubarsí",
+      "assist_id": null,
+      "assist_name": "",
+      "comments": "Foul"
+    },
+    {
+      "minute": 71,
+      "type": "subst",
+      "detail": "Substitution 3",
+      "team_id": 505,
+      "player_id": 1640,
+      "player_name": "H. Çalhanoğlu",
+      "assist_id": 31173,
+      "assist_name": "D. Frattesi",
+      "comments": null
+    },
+    {
+      "minute": 81,
+      "type": "subst",
+      "detail": "Substitution 4",
+      "team_id": 505,
+      "player_id": 21509,
+      "player_name": "M. Thuram",
+      "assist_id": 329,
+      "assist_name": "P. Zieliński",
+      "comments": null
+    },
+    {
+      "minute": 81,
+      "type": "subst",
+      "detail": "Substitution 5",
+      "team_id": 505,
+      "player_id": 226,
+      "player_name": "D. Dumfries",
+      "assist_id": 887,
+      "assist_name": "M. Darmian",
+      "comments": null
+    },
+    {
+      "minute": 83,
+      "type": "subst",
+      "detail": "Substitution 4",
+      "team_id": 529,
+      "player_id": 396623,
+      "player_name": "Pau Cubarsí",
+      "assist_id": 2282,
+      "assist_name": "A. Christensen",
+      "comments": null
+    },
+    {
+      "minute": 83,
+      "type": "subst",
+      "detail": "Substitution 5",
+      "team_id": 529,
+      "player_id": 133609,
+      "player_name": "Pedri",
+      "assist_id": 296667,
+      "assist_name": "Gavi",
+      "comments": null
+    }
+  ],
+  "current_minute": 90,
+  "extra_minute": 4,
+  "created_at": 1746040981,
+  "updated_at": 1746104429
 }
