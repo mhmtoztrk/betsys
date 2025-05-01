@@ -1,1513 +1,1733 @@
+
 {
-    "fixture_id": 1208357,
+  "match_id": 1,
+  "fixture_id": 1371732,
+  "league_id": 2,
+  "home_team_id": 529,
+  "away_team_id": 505,
+  "match_date": 1746039600,
+  "status": "completed",
+  "fixture_status": "FT",
+  "home_score": 3,
+  "away_score": 3,
+  "halftime_home_score": 2,
+  "halftime_away_score": 2,
+  "extratime_home_score": null,
+  "extratime_away_score": null,
+  "penalty_home_score": null,
+  "penalty_away_score": null,
+  "odds_added": 1,
+  "bookmaker_id": 1,
+  "extra_data": {
+    "fixture_id": 1371732,
     "league": {
-      "id": 39,
-      "name": "Premier League",
-      "logo": 10,
+      "id": 2,
+      "name": "UEFA Champions League",
+      "logo": 28,
       "country": {
-        "country_id": 25,
-        "name": "England",
-        "code": "GB-ENG",
-        "flag": 9
+        "country_id": 21,
+        "name": "World",
+        "code": null,
+        "flag": null
       }
     },
     "home_team": {
-      "id": 40,
-      "name": "Liverpool",
-      "logo": 1575,
-      "logo_icon_path": "bet/p/files/styles/team_thumb/2848-40.png"
+      "id": 529,
+      "name": "Barcelona",
+      "logo": 1560,
+      "logo_icon_path": "bet/p/files/styles/team_thumb/2833-529.png"
     },
     "away_team": {
-      "id": 47,
-      "name": "Tottenham",
-      "logo": 1576,
-      "logo_icon_path": "bet/p/files/styles/team_thumb/2849-47.png"
+      "id": 505,
+      "name": "Inter",
+      "logo": 1551,
+      "logo_icon_path": "bet/p/files/styles/team_thumb/2824-505.png"
     },
-    "match_date": 1745767800,
-    "status": "upcoming",
-    "fixture_status": "NS",
-    "home_score": null,
-    "away_score": null,
-    "odds": {
-      "1": {
-        "Home": {
-          "odd_value": "1.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "6.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "9.25",
-          "handicap": null,
-          "suspended": 0
-        }
+    "match_date": 1746039600,
+    "status": "live",
+    "fixture_status": "1H",
+    "home_score": 0,
+    "away_score": 2
+  },
+  "match_odds": "{\"1\":{\"Home\":{\"odd_value\":\"1.60\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"4.20\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"5.10\",\"handicap\":null,\"suspended\":0}},\"2\":{\"Home\":{\"odd_value\":\"1.22\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"3.75\",\"handicap\":null,\"suspended\":0}},\"3\":{\"Home\":{\"odd_value\":\"1.91\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"2.75\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"4.33\",\"handicap\":null,\"suspended\":0}},\"4\":{\"Home -1\":{\"odd_value\":\"2.00\",\"handicap\":null,\"suspended\":0},\"Away -1\":{\"odd_value\":\"1.83\",\"handicap\":null,\"suspended\":0},\"Home -0.5\":{\"odd_value\":\"1.60\",\"handicap\":null,\"suspended\":0},\"Away -0.5\":{\"odd_value\":\"2.35\",\"handicap\":null,\"suspended\":0}},\"5\":{\"Over 1.5\":{\"odd_value\":\"1.18\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Over 2.5\":{\"odd_value\":\"1.57\",\"handicap\":null,\"suspended\":0},\"Under 2.5\":{\"odd_value\":\"2.38\",\"handicap\":null,\"suspended\":0},\"Over 3.5\":{\"odd_value\":\"2.40\",\"handicap\":null,\"suspended\":0},\"Under 3.5\":{\"odd_value\":\"1.55\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.03\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Over 4.5\":{\"odd_value\":\"4.20\",\"handicap\":null,\"suspended\":0},\"Under 4.5\":{\"odd_value\":\"1.22\",\"handicap\":null,\"suspended\":0},\"Over 5.5\":{\"odd_value\":\"8.00\",\"handicap\":null,\"suspended\":0},\"Under 5.5\":{\"odd_value\":\"1.07\",\"handicap\":null,\"suspended\":0}},\"6\":{\"Over 1.5\":{\"odd_value\":\"2.25\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"1.57\",\"handicap\":null,\"suspended\":0},\"Over 2.5\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Under 2.5\":{\"odd_value\":\"1.15\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.28\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"3.40\",\"handicap\":null,\"suspended\":0}},\"7\":{\"Over 1.5\":{\"odd_value\":\"1.73\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"2.00\",\"handicap\":null,\"suspended\":0},\"Over 2.5\":{\"odd_value\":\"3.20\",\"handicap\":null,\"suspended\":0},\"Under 2.5\":{\"odd_value\":\"1.30\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.14\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"5.00\",\"handicap\":null,\"suspended\":0}},\"8\":{\"Home\\/Draw\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"Home\\/Away\":{\"odd_value\":\"34.00\",\"handicap\":null,\"suspended\":0},\"Draw\\/Away\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0},\"Draw\\/Draw\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"Home\\/Home\":{\"odd_value\":\"2.30\",\"handicap\":null,\"suspended\":0},\"Draw\\/Home\":{\"odd_value\":\"4.50\",\"handicap\":null,\"suspended\":0},\"Away\\/Home\":{\"odd_value\":\"21.00\",\"handicap\":null,\"suspended\":0},\"Away\\/Draw\":{\"odd_value\":\"17.00\",\"handicap\":null,\"suspended\":0},\"Away\\/Away\":{\"odd_value\":\"8.50\",\"handicap\":null,\"suspended\":0}},\"9\":{\"Yes\":{\"odd_value\":\"2.70\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.40\",\"handicap\":null,\"suspended\":0}},\"10\":{\"Yes\":{\"odd_value\":\"6.25\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.09\",\"handicap\":null,\"suspended\":0}},\"11\":{\"Yes\":{\"odd_value\":\"1.57\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"2.25\",\"handicap\":null,\"suspended\":0}},\"12\":{\"Yes\":{\"odd_value\":\"3.10\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.33\",\"handicap\":null,\"suspended\":0}},\"13\":{\"Yes\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.05\",\"handicap\":null,\"suspended\":0}},\"14\":{\"Home -1\":{\"odd_value\":\"2.55\",\"handicap\":null,\"suspended\":0},\"Away -1\":{\"odd_value\":\"2.30\",\"handicap\":null,\"suspended\":0},\"Draw -1\":{\"odd_value\":\"3.55\",\"handicap\":null,\"suspended\":0},\"Home -3\":{\"odd_value\":\"9.00\",\"handicap\":null,\"suspended\":0},\"Draw -3\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"Away -3\":{\"odd_value\":\"1.15\",\"handicap\":null,\"suspended\":0},\"Home -2\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Draw -2\":{\"odd_value\":\"4.50\",\"handicap\":null,\"suspended\":0},\"Away -2\":{\"odd_value\":\"1.48\",\"handicap\":null,\"suspended\":0},\"Home +1\":{\"odd_value\":\"1.17\",\"handicap\":null,\"suspended\":0},\"Draw +1\":{\"odd_value\":\"6.25\",\"handicap\":null,\"suspended\":0},\"Away +1\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0},\"Home +2\":{\"odd_value\":\"1.05\",\"handicap\":null,\"suspended\":0},\"Draw +2\":{\"odd_value\":\"9.00\",\"handicap\":null,\"suspended\":0},\"Away +2\":{\"odd_value\":\"19.00\",\"handicap\":null,\"suspended\":0}},\"15\":{\"1:0\":{\"odd_value\":\"7.50\",\"handicap\":null,\"suspended\":0},\"2:0\":{\"odd_value\":\"7.50\",\"handicap\":null,\"suspended\":0},\"2:1\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"3:0\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"3:1\":{\"odd_value\":\"9.00\",\"handicap\":null,\"suspended\":0},\"3:2\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"4:0\":{\"odd_value\":\"19.00\",\"handicap\":null,\"suspended\":0},\"4:1\":{\"odd_value\":\"17.00\",\"handicap\":null,\"suspended\":0},\"0:0\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"1:1\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"2:2\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"0:1\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"0:2\":{\"odd_value\":\"23.00\",\"handicap\":null,\"suspended\":0},\"0:3\":{\"odd_value\":\"56.00\",\"handicap\":null,\"suspended\":0},\"1:2\":{\"odd_value\":\"12.00\",\"handicap\":null,\"suspended\":0},\"1:3\":{\"odd_value\":\"29.00\",\"handicap\":null,\"suspended\":0},\"2:3\":{\"odd_value\":\"26.00\",\"handicap\":null,\"suspended\":0},\"3:3\":{\"odd_value\":\"34.00\",\"handicap\":null,\"suspended\":0},\"0:4\":{\"odd_value\":\"101.00\",\"handicap\":null,\"suspended\":0},\"1:4\":{\"odd_value\":\"76.00\",\"handicap\":null,\"suspended\":0},\"2:4\":{\"odd_value\":\"71.00\",\"handicap\":null,\"suspended\":0},\"4:2\":{\"odd_value\":\"26.00\",\"handicap\":null,\"suspended\":0},\"3:4\":{\"odd_value\":\"81.00\",\"handicap\":null,\"suspended\":0},\"5:0\":{\"odd_value\":\"46.00\",\"handicap\":null,\"suspended\":0},\"5:1\":{\"odd_value\":\"34.00\",\"handicap\":null,\"suspended\":0},\"5:2\":{\"odd_value\":\"56.00\",\"handicap\":null,\"suspended\":0},\"6:0\":{\"odd_value\":\"91.00\",\"handicap\":null,\"suspended\":0},\"6:1\":{\"odd_value\":\"76.00\",\"handicap\":null,\"suspended\":0},\"6:2\":{\"odd_value\":\"101.00\",\"handicap\":null,\"suspended\":0},\"4:3\":{\"odd_value\":\"56.00\",\"handicap\":null,\"suspended\":0},\"5:3\":{\"odd_value\":\"101.00\",\"handicap\":null,\"suspended\":0},\"4:4\":{\"odd_value\":\"126.00\",\"handicap\":null,\"suspended\":0}},\"16\":{\"Draw\":{\"odd_value\":\"3.75\",\"handicap\":null,\"suspended\":0},\"1st Half\":{\"odd_value\":\"3.00\",\"handicap\":null,\"suspended\":0},\"2nd Half\":{\"odd_value\":\"1.93\",\"handicap\":null,\"suspended\":0}},\"17\":{\"1:0\":{\"odd_value\":\"3.55\",\"handicap\":null,\"suspended\":0},\"2:0\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"2:1\":{\"odd_value\":\"12.00\",\"handicap\":null,\"suspended\":0},\"3:0\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"3:1\":{\"odd_value\":\"29.00\",\"handicap\":null,\"suspended\":0},\"3:2\":{\"odd_value\":\"71.00\",\"handicap\":null,\"suspended\":0},\"4:0\":{\"odd_value\":\"51.00\",\"handicap\":null,\"suspended\":0},\"4:1\":{\"odd_value\":\"71.00\",\"handicap\":null,\"suspended\":0},\"0:0\":{\"odd_value\":\"3.40\",\"handicap\":null,\"suspended\":0},\"1:1\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"2:2\":{\"odd_value\":\"41.00\",\"handicap\":null,\"suspended\":0},\"0:1\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"0:2\":{\"odd_value\":\"23.00\",\"handicap\":null,\"suspended\":0},\"0:3\":{\"odd_value\":\"76.00\",\"handicap\":null,\"suspended\":0},\"1:2\":{\"odd_value\":\"23.00\",\"handicap\":null,\"suspended\":0},\"1:3\":{\"odd_value\":\"71.00\",\"handicap\":null,\"suspended\":0},\"2:3\":{\"odd_value\":\"101.00\",\"handicap\":null,\"suspended\":0}},\"18\":{\"1:0\":{\"odd_value\":\"4.50\",\"handicap\":null,\"suspended\":0},\"2:0\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"2:1\":{\"odd_value\":\"9.50\",\"handicap\":null,\"suspended\":0},\"3:0\":{\"odd_value\":\"13.00\",\"handicap\":null,\"suspended\":0},\"3:1\":{\"odd_value\":\"19.00\",\"handicap\":null,\"suspended\":0},\"3:2\":{\"odd_value\":\"46.00\",\"handicap\":null,\"suspended\":0},\"4:0\":{\"odd_value\":\"34.00\",\"handicap\":null,\"suspended\":0},\"4:1\":{\"odd_value\":\"51.00\",\"handicap\":null,\"suspended\":0},\"0:0\":{\"odd_value\":\"5.00\",\"handicap\":null,\"suspended\":0},\"1:1\":{\"odd_value\":\"6.00\",\"handicap\":null,\"suspended\":0},\"2:2\":{\"odd_value\":\"23.00\",\"handicap\":null,\"suspended\":0},\"0:1\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"0:2\":{\"odd_value\":\"19.00\",\"handicap\":null,\"suspended\":0},\"0:3\":{\"odd_value\":\"56.00\",\"handicap\":null,\"suspended\":0},\"1:2\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"1:3\":{\"odd_value\":\"51.00\",\"handicap\":null,\"suspended\":0},\"2:3\":{\"odd_value\":\"67.00\",\"handicap\":null,\"suspended\":0},\"3:3\":{\"odd_value\":\"126.00\",\"handicap\":null,\"suspended\":0},\"4:2\":{\"odd_value\":\"91.00\",\"handicap\":null,\"suspended\":0},\"5:0\":{\"odd_value\":\"101.00\",\"handicap\":null,\"suspended\":0}},\"19\":{\"Home\\/Draw\":{\"odd_value\":\"1.17\",\"handicap\":null,\"suspended\":0},\"Home\\/Away\":{\"odd_value\":\"1.18\",\"handicap\":null,\"suspended\":0},\"Draw\\/Away\":{\"odd_value\":\"2.30\",\"handicap\":null,\"suspended\":0}},\"20\":{\"Home\":{\"odd_value\":\"2.00\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"2.38\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"5.00\",\"handicap\":null,\"suspended\":0}},\"21\":{\"Home\":{\"odd_value\":\"1.50\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"2.75\",\"handicap\":null,\"suspended\":0}},\"22\":{\"Home\":{\"odd_value\":\"1.50\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"2.75\",\"handicap\":null,\"suspended\":0}},\"23\":{\"Home\":{\"odd_value\":\"3.70\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"19.00\",\"handicap\":null,\"suspended\":0}},\"24\":{\"Over 1.5\":{\"odd_value\":\"1.53\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"2.35\",\"handicap\":null,\"suspended\":0},\"Over 2.5\":{\"odd_value\":\"2.65\",\"handicap\":null,\"suspended\":0},\"Under 2.5\":{\"odd_value\":\"1.42\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.09\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"6.25\",\"handicap\":null,\"suspended\":0}},\"25\":{\"Over 1.5\":{\"odd_value\":\"3.00\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"1.33\",\"handicap\":null,\"suspended\":0},\"Over 2.5\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"Under 2.5\":{\"odd_value\":\"1.07\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.40\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"2.70\",\"handicap\":null,\"suspended\":0}},\"26\":{\"Home -1\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Away -1\":{\"odd_value\":\"1.70\",\"handicap\":null,\"suspended\":0},\"Draw -1\":{\"odd_value\":\"3.10\",\"handicap\":null,\"suspended\":0},\"Home +1\":{\"odd_value\":\"1.14\",\"handicap\":null,\"suspended\":0},\"Draw +1\":{\"odd_value\":\"5.25\",\"handicap\":null,\"suspended\":0},\"Away +1\":{\"odd_value\":\"17.00\",\"handicap\":null,\"suspended\":0}},\"27\":{\"Home -0.5\":{\"odd_value\":\"2.05\",\"handicap\":null,\"suspended\":0},\"Away -0.5\":{\"odd_value\":\"1.75\",\"handicap\":null,\"suspended\":0},\"Home +0\":{\"odd_value\":\"1.33\",\"handicap\":null,\"suspended\":0},\"Away +0\":{\"odd_value\":\"3.25\",\"handicap\":null,\"suspended\":0}},\"28\":{\"Home\\/Draw\":{\"odd_value\":\"1.14\",\"handicap\":null,\"suspended\":0},\"Home\\/Away\":{\"odd_value\":\"1.45\",\"handicap\":null,\"suspended\":0},\"Draw\\/Away\":{\"odd_value\":\"1.70\",\"handicap\":null,\"suspended\":0}},\"29\":{\"Yes\":{\"odd_value\":\"3.65\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.25\",\"handicap\":null,\"suspended\":0}},\"30\":{\"Yes\":{\"odd_value\":\"2.65\",\"handicap\":null,\"suspended\":0},\"No\":{\"odd_value\":\"1.42\",\"handicap\":null,\"suspended\":0}},\"31\":{\"Home\":{\"odd_value\":\"3.10\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0}},\"32\":{\"Odd\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Even\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0}},\"33\":{\"Odd\":{\"odd_value\":\"2.00\",\"handicap\":null,\"suspended\":0},\"Even\":{\"odd_value\":\"1.77\",\"handicap\":null,\"suspended\":0}},\"34\":{\"Odd\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Even\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0}},\"35\":{\"Odd\":{\"odd_value\":\"2.05\",\"handicap\":null,\"suspended\":0},\"Even\":{\"odd_value\":\"1.70\",\"handicap\":null,\"suspended\":0}},\"36\":{\"Home\":{\"odd_value\":\"1.30\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"2.65\",\"handicap\":null,\"suspended\":0}},\"37\":{\"0\":{\"odd_value\":\"6.25\",\"handicap\":null,\"suspended\":0},\"1\":{\"odd_value\":\"3.30\",\"handicap\":null,\"suspended\":0},\"more 2\":{\"odd_value\":\"1.53\",\"handicap\":null,\"suspended\":0}},\"38\":{\"0\":{\"odd_value\":\"2.70\",\"handicap\":null,\"suspended\":0},\"1\":{\"odd_value\":\"2.40\",\"handicap\":null,\"suspended\":0},\"more 2\":{\"odd_value\":\"3.00\",\"handicap\":null,\"suspended\":0}},\"62\":{\"Home\":{\"odd_value\":\"1.44\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"2.50\",\"handicap\":null,\"suspended\":0}},\"39\":{\"Home\\/Yes\":{\"odd_value\":\"2.88\",\"handicap\":null,\"suspended\":0},\"Draw\\/Yes\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Away\\/Yes\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"Home\\/No\":{\"odd_value\":\"3.10\",\"handicap\":null,\"suspended\":0},\"Draw\\/No\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Away\\/No\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0}},\"40\":{\"Draw\\/Over 1.5\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Away\\/Over 1.5\":{\"odd_value\":\"5.50\",\"handicap\":null,\"suspended\":0},\"Home\\/Over 1.5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Home\\/Under 1.5\":{\"odd_value\":\"7.50\",\"handicap\":null,\"suspended\":0},\"Draw\\/Under 1.5\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Away\\/Under 1.5\":{\"odd_value\":\"15.00\",\"handicap\":null,\"suspended\":0},\"Home\\/Over 2.5\":{\"odd_value\":\"2.20\",\"handicap\":null,\"suspended\":0},\"Draw\\/Over 2.5\":{\"odd_value\":\"9.50\",\"handicap\":null,\"suspended\":0},\"Away\\/Over 2.5\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0},\"Home\\/Under 2.5\":{\"odd_value\":\"4.75\",\"handicap\":null,\"suspended\":0},\"Draw\\/Under 2.5\":{\"odd_value\":\"5.75\",\"handicap\":null,\"suspended\":0},\"Away\\/Under 2.5\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0},\"Draw\\/Over 3.5\":{\"odd_value\":\"9.50\",\"handicap\":null,\"suspended\":0},\"Home\\/Over 3.5\":{\"odd_value\":\"3.45\",\"handicap\":null,\"suspended\":0},\"Away\\/Over 3.5\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0},\"Home\\/Under 3.5\":{\"odd_value\":\"2.65\",\"handicap\":null,\"suspended\":0},\"Draw\\/Under 3.5\":{\"odd_value\":\"5.75\",\"handicap\":null,\"suspended\":0},\"Away\\/Under 3.5\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0}},\"41\":{\"Home\":{\"odd_value\":\"5.50\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"1.22\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"11.00\",\"handicap\":null,\"suspended\":0}},\"42\":{\"Over 9.5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Under 9.5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0}},\"43\":{\"Over 1.5\":{\"odd_value\":\"3.60\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"1.25\",\"handicap\":null,\"suspended\":0},\"Over 0.5\":{\"odd_value\":\"1.55\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"2.45\",\"handicap\":null,\"suspended\":0}},\"44\":{\"Over 0.5\":{\"odd_value\":\"2.45\",\"handicap\":null,\"suspended\":0},\"Under 0.5\":{\"odd_value\":\"1.55\",\"handicap\":null,\"suspended\":0}},\"45\":{\"Over 1.5\":{\"odd_value\":\"2.75\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"1.40\",\"handicap\":null,\"suspended\":0}},\"46\":{\"Over 1.5\":{\"odd_value\":\"5.75\",\"handicap\":null,\"suspended\":0},\"Under 1.5\":{\"odd_value\":\"1.10\",\"handicap\":null,\"suspended\":0}},\"47\":{\"Odd\":{\"odd_value\":\"1.95\",\"handicap\":null,\"suspended\":0},\"Even\":{\"odd_value\":\"1.83\",\"handicap\":null,\"suspended\":0}},\"48\":{\"Home\":{\"odd_value\":\"1.30\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"3.20\",\"handicap\":null,\"suspended\":0}},\"49\":{\"Home -1\":{\"odd_value\":\"4.00\",\"handicap\":null,\"suspended\":0},\"Away -1\":{\"odd_value\":\"1.80\",\"handicap\":null,\"suspended\":0},\"Draw -1\":{\"odd_value\":\"3.20\",\"handicap\":null,\"suspended\":0},\"Home -2\":{\"odd_value\":\"9.50\",\"handicap\":null,\"suspended\":0},\"Draw -2\":{\"odd_value\":\"5.50\",\"handicap\":null,\"suspended\":0},\"Away -2\":{\"odd_value\":\"1.20\",\"handicap\":null,\"suspended\":0},\"Home +1\":{\"odd_value\":\"1.20\",\"handicap\":null,\"suspended\":0},\"Draw +1\":{\"odd_value\":\"5.25\",\"handicap\":null,\"suspended\":0},\"Away +1\":{\"odd_value\":\"12.00\",\"handicap\":null,\"suspended\":0}},\"50\":{\"Home\":{\"odd_value\":\"1.33\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"3.00\",\"handicap\":null,\"suspended\":0}},\"51\":{\"o\\/yes 2.5\":{\"odd_value\":\"1.90\",\"handicap\":null,\"suspended\":0},\"o\\/no 2.5\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"u\\/yes 2.5\":{\"odd_value\":\"7.00\",\"handicap\":null,\"suspended\":0},\"u\\/no 2.5\":{\"odd_value\":\"3.10\",\"handicap\":null,\"suspended\":0}},\"52\":{\"Over 5.5\":{\"odd_value\":\"1.65\",\"handicap\":null,\"suspended\":0},\"Under 5.5\":{\"odd_value\":\"1.95\",\"handicap\":null,\"suspended\":0}},\"53\":{\"Over 3.5\":{\"odd_value\":\"1.70\",\"handicap\":null,\"suspended\":0},\"Under 3.5\":{\"odd_value\":\"1.90\",\"handicap\":null,\"suspended\":0}},\"54\":{\"Exactly 9\":{\"odd_value\":\"7.50\",\"handicap\":null,\"suspended\":0},\"Over 9\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Under 9\":{\"odd_value\":\"2.30\",\"handicap\":null,\"suspended\":0},\"Exactly 10\":{\"odd_value\":\"8.50\",\"handicap\":null,\"suspended\":0},\"Over 10\":{\"odd_value\":\"2.25\",\"handicap\":null,\"suspended\":0},\"Under 10\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Exactly 11\":{\"odd_value\":\"9.00\",\"handicap\":null,\"suspended\":0},\"Over 11\":{\"odd_value\":\"2.90\",\"handicap\":null,\"suspended\":0},\"Under 11\":{\"odd_value\":\"1.50\",\"handicap\":null,\"suspended\":0}},\"55\":{\"Home\":{\"odd_value\":\"1.83\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"2.95\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"5.00\",\"handicap\":null,\"suspended\":0}},\"56\":{\"Home\":{\"odd_value\":\"2.65\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"6.00\",\"handicap\":null,\"suspended\":0}},\"57\":{\"Home\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Draw\":{\"odd_value\":\"3.40\",\"handicap\":null,\"suspended\":0},\"Away\":{\"odd_value\":\"3.65\",\"handicap\":null,\"suspended\":0}},\"58\":{\"Exactly 5\":{\"odd_value\":\"5.50\",\"handicap\":null,\"suspended\":0},\"Over 5\":{\"odd_value\":\"2.55\",\"handicap\":null,\"suspended\":0},\"Under 5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Over 4.5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0},\"Under 4.5\":{\"odd_value\":\"1.85\",\"handicap\":null,\"suspended\":0}},\"59\":{\"Draw\\/Over 1.5\":{\"odd_value\":\"6.25\",\"handicap\":null,\"suspended\":0},\"Away\\/Over 1.5\":{\"odd_value\":\"10.00\",\"handicap\":null,\"suspended\":0},\"Home\\/Over 1.5\":{\"odd_value\":\"3.90\",\"handicap\":null,\"suspended\":0},\"Home\\/Under 1.5\":{\"odd_value\":\"3.55\",\"handicap\":null,\"suspended\":0},\"Draw\\/Under 1.5\":{\"odd_value\":\"3.40\",\"handicap\":null,\"suspended\":0},\"Away\\/Under 1.5\":{\"odd_value\":\"6.50\",\"handicap\":null,\"suspended\":0}}}",
+  "stats": {
+    "Shots on Goal": [
+      9,
+      3
+    ],
+    "Shots off Goal": [
+      5,
+      3
+    ],
+    "Total Shots": [
+      19,
+      7
+    ],
+    "Blocked Shots": [
+      5,
+      1
+    ],
+    "Shots insidebox": [
+      11,
+      5
+    ],
+    "Shots outsidebox": [
+      8,
+      2
+    ],
+    "Fouls": [
+      10,
+      11
+    ],
+    "Corner Kicks": [
+      7,
+      2
+    ],
+    "Offsides": [
+      0,
+      5
+    ],
+    "Ball Possession": [
+      "72%",
+      "28%"
+    ],
+    "Yellow Cards": [
+      1,
+      1
+    ],
+    "Red Cards": [
+      null,
+      null
+    ],
+    "Goalkeeper Saves": [
+      0,
+      7
+    ],
+    "Total passes": [
+      683,
+      271
+    ],
+    "Passes accurate": [
+      621,
+      204
+    ],
+    "Passes %": [
+      "91%",
+      "75%"
+    ],
+    "expected_goals": [
+      "1.38",
+      "0.91"
+    ],
+    "goals_prevented": [
+      0,
+      0
+    ]
+  },
+  "current_minute": 90,
+  "extra_minute": 4,
+  "created_at": 1746040981,
+  "updated_at": 1746094136,
+  "odds": {
+    "1": {
+      "Home": {
+        "odd_value": "1.60",
+        "handicap": null,
+        "suspended": 0
       },
-      "2": {
-        "Home": {
-          "odd_value": "1.07",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        }
+      "Draw": {
+        "odd_value": "4.20",
+        "handicap": null,
+        "suspended": 0
       },
-      "3": {
-        "Home": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "3.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "4": {
-        "Home -1": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -1": {
-          "odd_value": "2.65",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -2": {
-          "odd_value": "2.05",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -2": {
-          "odd_value": "1.77",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -1.5": {
-          "odd_value": "1.67",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -1.5": {
-          "odd_value": "2.20",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "5": {
-        "Over 1.5": {
-          "odd_value": "1.08",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "1.30",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "3.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 3.5": {
-          "odd_value": "1.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 3.5": {
-          "odd_value": "2.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 4.5": {
-          "odd_value": "2.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 4.5": {
-          "odd_value": "1.42",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 5.5": {
-          "odd_value": "4.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 5.5": {
-          "odd_value": "1.18",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "6": {
-        "Over 1.5": {
-          "odd_value": "1.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "1.91",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "3.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "1.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 0.5": {
-          "odd_value": "1.15",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 0.5": {
-          "odd_value": "4.75",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "7": {
-        "Over 1.5": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "2.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "2.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 0.5": {
-          "odd_value": "1.08",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 0.5": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "8": {
-        "Home/Draw": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Away": {
-          "odd_value": "46.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Away": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Draw": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Home": {
-          "odd_value": "1.67",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Home": {
-          "odd_value": "4.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Home": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Draw": {
-          "odd_value": "21.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Away": {
-          "odd_value": "15.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "9": {
-        "Yes": {
-          "odd_value": "2.35",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.53",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "10": {
-        "Yes": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.02",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "11": {
-        "Yes": {
-          "odd_value": "1.62",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "2.15",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "12": {
-        "Yes": {
-          "odd_value": "2.40",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "13": {
-        "Yes": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.02",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "14": {
-        "Home -1": {
-          "odd_value": "1.62",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -1": {
-          "odd_value": "3.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -1": {
-          "odd_value": "4.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -3": {
-          "odd_value": "4.33",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -3": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -3": {
-          "odd_value": "1.48",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -2": {
-          "odd_value": "2.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -2": {
-          "odd_value": "4.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -2": {
-          "odd_value": "2.15",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home +1": {
-          "odd_value": "1.05",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw +1": {
-          "odd_value": "9.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away +1": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -4": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -4": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -4": {
-          "odd_value": "1.18",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "15": {
-        "1:0": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:0": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:1": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:0": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:1": {
-          "odd_value": "8.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:2": {
-          "odd_value": "13.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:0": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:1": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:0": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:1": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:2": {
-          "odd_value": "13.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:1": {
-          "odd_value": "23.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:2": {
-          "odd_value": "46.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:3": {
-          "odd_value": "91.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:2": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:3": {
-          "odd_value": "51.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:3": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:3": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:4": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:4": {
-          "odd_value": "91.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:2": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:4": {
-          "odd_value": "91.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:0": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:1": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:2": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "6:0": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "6:1": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "6:2": {
-          "odd_value": "61.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:3": {
-          "odd_value": "51.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:3": {
-          "odd_value": "76.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "6:3": {
-          "odd_value": "126.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:4": {
-          "odd_value": "126.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "7:0": {
-          "odd_value": "67.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "7:1": {
-          "odd_value": "67.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "7:2": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "8:0": {
-          "odd_value": "126.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "8:1": {
-          "odd_value": "126.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "16": {
-        "Draw": {
-          "odd_value": "4.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1st Half": {
-          "odd_value": "2.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2nd Half": {
-          "odd_value": "1.95",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "17": {
-        "1:0": {
-          "odd_value": "3.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:0": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:1": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:0": {
-          "odd_value": "9.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:1": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:2": {
-          "odd_value": "61.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:0": {
-          "odd_value": "23.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:1": {
-          "odd_value": "46.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:0": {
-          "odd_value": "4.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:1": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:2": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:1": {
-          "odd_value": "9.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:2": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:3": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:2": {
-          "odd_value": "29.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:3": {
-          "odd_value": "91.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:3": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:0": {
-          "odd_value": "61.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:1": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "18": {
-        "1:0": {
-          "odd_value": "4.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:0": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:1": {
-          "odd_value": "8.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:0": {
-          "odd_value": "8.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:1": {
-          "odd_value": "13.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:2": {
-          "odd_value": "41.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:0": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:1": {
-          "odd_value": "29.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:0": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:1": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:2": {
-          "odd_value": "23.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:1": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:2": {
-          "odd_value": "31.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "0:3": {
-          "odd_value": "91.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:2": {
-          "odd_value": "21.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1:3": {
-          "odd_value": "71.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "2:3": {
-          "odd_value": "81.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "3:3": {
-          "odd_value": "126.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "4:2": {
-          "odd_value": "71.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:0": {
-          "odd_value": "46.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "5:1": {
-          "odd_value": "67.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "6:0": {
-          "odd_value": "101.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "19": {
-        "Home/Draw": {
-          "odd_value": "1.05",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Away": {
-          "odd_value": "1.07",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Away": {
-          "odd_value": "3.80",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "20": {
-        "Home": {
-          "odd_value": "1.55",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "3.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "21": {
-        "Home": {
-          "odd_value": "1.30",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "3.45",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "22": {
-        "Home": {
-          "odd_value": "1.30",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "3.45",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "23": {
-        "Home": {
-          "odd_value": "2.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "24": {
-        "Over 1.5": {
-          "odd_value": "1.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "3.95",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "1.70",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "2.05",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 3.5": {
-          "odd_value": "2.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 3.5": {
-          "odd_value": "1.40",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "25": {
-        "Over 1.5": {
-          "odd_value": "3.55",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "1.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 0.5": {
-          "odd_value": "1.53",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 0.5": {
-          "odd_value": "2.35",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "26": {
-        "Home -1": {
-          "odd_value": "3.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -1": {
-          "odd_value": "2.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -1": {
-          "odd_value": "2.90",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -2": {
-          "odd_value": "7.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -2": {
-          "odd_value": "4.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -2": {
-          "odd_value": "1.33",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "27": {
-        "Home -0.5": {
-          "odd_value": "1.60",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -0.5": {
-          "odd_value": "2.30",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "28": {
-        "Home/Draw": {
-          "odd_value": "1.05",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Away": {
-          "odd_value": "1.28",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Away": {
-          "odd_value": "2.25",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "29": {
-        "Yes": {
-          "odd_value": "3.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.25",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "30": {
-        "Yes": {
-          "odd_value": "2.65",
-          "handicap": null,
-          "suspended": 0
-        },
-        "No": {
-          "odd_value": "1.42",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "31": {
-        "Home": {
-          "odd_value": "2.40",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "32": {
-        "Odd": {
-          "odd_value": "1.85",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Even": {
-          "odd_value": "1.85",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "33": {
-        "Odd": {
-          "odd_value": "1.95",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Even": {
-          "odd_value": "1.83",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "34": {
-        "Odd": {
-          "odd_value": "1.85",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Even": {
-          "odd_value": "1.85",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "35": {
-        "Odd": {
-          "odd_value": "2.15",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Even": {
-          "odd_value": "1.62",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "36": {
-        "Home": {
-          "odd_value": "1.12",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "3.95",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "37": {
-        "0": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "more 2": {
-          "odd_value": "1.20",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "38": {
-        "0": {
-          "odd_value": "2.35",
-          "handicap": null,
-          "suspended": 0
-        },
-        "1": {
-          "odd_value": "2.40",
-          "handicap": null,
-          "suspended": 0
-        },
-        "more 2": {
-          "odd_value": "3.55",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "39": {
-        "Home/Yes": {
-          "odd_value": "2.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Yes": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Yes": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/No": {
-          "odd_value": "2.40",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/No": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/No": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "40": {
-        "Draw/Over 1.5": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Over 1.5": {
-          "odd_value": "9.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Over 1.5": {
-          "odd_value": "1.33",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Under 1.5": {
-          "odd_value": "10.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Under 1.5": {
-          "odd_value": "34.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Under 1.5": {
-          "odd_value": "23.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Over 2.5": {
-          "odd_value": "1.53",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Over 2.5": {
-          "odd_value": "12.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Over 2.5": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Under 2.5": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Under 2.5": {
-          "odd_value": "8.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Under 2.5": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Over 3.5": {
-          "odd_value": "12.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Over 3.5": {
-          "odd_value": "2.10",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Over 3.5": {
-          "odd_value": "19.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Under 3.5": {
-          "odd_value": "2.62",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Under 3.5": {
-          "odd_value": "8.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Under 3.5": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "41": {
-        "Home": {
-          "odd_value": "4.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "1.30",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "13.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "43": {
-        "Over 1.5": {
-          "odd_value": "2.40",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "1.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "5.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "1.11",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "45": {
-        "Over 1.5": {
-          "odd_value": "1.95",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 1.5": {
-          "odd_value": "1.77",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Over 2.5": {
-          "odd_value": "3.95",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Under 2.5": {
-          "odd_value": "1.20",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "47": {
-        "Odd": {
-          "odd_value": "1.93",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Even": {
-          "odd_value": "1.85",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "48": {
-        "Home": {
-          "odd_value": "1.13",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "49": {
-        "Home -1": {
-          "odd_value": "2.55",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -1": {
-          "odd_value": "2.45",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -1": {
-          "odd_value": "3.10",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home -2": {
-          "odd_value": "5.25",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw -2": {
-          "odd_value": "4.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away -2": {
-          "odd_value": "1.45",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "50": {
-        "Home": {
-          "odd_value": "1.13",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "5.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "51": {
-        "o/yes 2.5": {
-          "odd_value": "1.80",
-          "handicap": null,
-          "suspended": 0
-        },
-        "o/no 2.5": {
-          "odd_value": "4.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "u/yes 2.5": {
-          "odd_value": "11.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "u/no 2.5": {
-          "odd_value": "4.33",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "55": {
-        "Home": {
-          "odd_value": "1.42",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "4.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "7.50",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "56": {
-        "Home": {
-          "odd_value": "2.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "2.20",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "8.00",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "57": {
-        "Home": {
-          "odd_value": "1.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw": {
-          "odd_value": "4.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away": {
-          "odd_value": "4.50",
-          "handicap": null,
-          "suspended": 0
-        }
-      },
-      "59": {
-        "Draw/Over 1.5": {
-          "odd_value": "6.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Over 1.5": {
-          "odd_value": "17.00",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Over 1.5": {
-          "odd_value": "2.50",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Home/Under 1.5": {
-          "odd_value": "3.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Draw/Under 1.5": {
-          "odd_value": "4.75",
-          "handicap": null,
-          "suspended": 0
-        },
-        "Away/Under 1.5": {
-          "odd_value": "9.50",
-          "handicap": null,
-          "suspended": 0
-        }
+      "Away": {
+        "odd_value": "5.10",
+        "handicap": null,
+        "suspended": 0
       }
     },
-    "stats": [
-      
-    ],
-    "match_id": 29,
-    "current_minute": null,
-    "current_second": null
+    "2": {
+      "Home": {
+        "odd_value": "1.22",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "3.75",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "3": {
+      "Home": {
+        "odd_value": "1.91",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "2.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "4.33",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "4": {
+      "Home -1": {
+        "odd_value": "2.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -1": {
+        "odd_value": "1.83",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home -0.5": {
+        "odd_value": "1.60",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -0.5": {
+        "odd_value": "2.35",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "5": {
+      "Over 1.5": {
+        "odd_value": "1.18",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 2.5": {
+        "odd_value": "1.57",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 2.5": {
+        "odd_value": "2.38",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 3.5": {
+        "odd_value": "2.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 3.5": {
+        "odd_value": "1.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.03",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 4.5": {
+        "odd_value": "4.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 4.5": {
+        "odd_value": "1.22",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 5.5": {
+        "odd_value": "8.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 5.5": {
+        "odd_value": "1.07",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "6": {
+      "Over 1.5": {
+        "odd_value": "2.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "1.57",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 2.5": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 2.5": {
+        "odd_value": "1.15",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.28",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "3.40",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "7": {
+      "Over 1.5": {
+        "odd_value": "1.73",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "2.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 2.5": {
+        "odd_value": "3.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 2.5": {
+        "odd_value": "1.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.14",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "5.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "8": {
+      "Home/Draw": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Away": {
+        "odd_value": "34.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Away": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Draw": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Home": {
+        "odd_value": "2.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Home": {
+        "odd_value": "4.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Home": {
+        "odd_value": "21.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Draw": {
+        "odd_value": "17.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Away": {
+        "odd_value": "8.50",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "9": {
+      "Yes": {
+        "odd_value": "2.70",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.40",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "10": {
+      "Yes": {
+        "odd_value": "6.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.09",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "11": {
+      "Yes": {
+        "odd_value": "1.57",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "2.25",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "12": {
+      "Yes": {
+        "odd_value": "3.10",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.33",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "13": {
+      "Yes": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.05",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "14": {
+      "Home -1": {
+        "odd_value": "2.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -1": {
+        "odd_value": "2.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -1": {
+        "odd_value": "3.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home -3": {
+        "odd_value": "9.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -3": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -3": {
+        "odd_value": "1.15",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home -2": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -2": {
+        "odd_value": "4.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -2": {
+        "odd_value": "1.48",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home +1": {
+        "odd_value": "1.17",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw +1": {
+        "odd_value": "6.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away +1": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home +2": {
+        "odd_value": "1.05",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw +2": {
+        "odd_value": "9.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away +2": {
+        "odd_value": "19.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "15": {
+      "1:0": {
+        "odd_value": "7.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:0": {
+        "odd_value": "7.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:1": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:0": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:1": {
+        "odd_value": "9.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:2": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:0": {
+        "odd_value": "19.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:1": {
+        "odd_value": "17.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:0": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:1": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:2": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:1": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:2": {
+        "odd_value": "23.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:3": {
+        "odd_value": "56.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:2": {
+        "odd_value": "12.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:3": {
+        "odd_value": "29.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:3": {
+        "odd_value": "26.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:3": {
+        "odd_value": "34.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:4": {
+        "odd_value": "101.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:4": {
+        "odd_value": "76.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:4": {
+        "odd_value": "71.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:2": {
+        "odd_value": "26.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:4": {
+        "odd_value": "81.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "5:0": {
+        "odd_value": "46.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "5:1": {
+        "odd_value": "34.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "5:2": {
+        "odd_value": "56.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "6:0": {
+        "odd_value": "91.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "6:1": {
+        "odd_value": "76.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "6:2": {
+        "odd_value": "101.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:3": {
+        "odd_value": "56.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "5:3": {
+        "odd_value": "101.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:4": {
+        "odd_value": "126.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "16": {
+      "Draw": {
+        "odd_value": "3.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1st Half": {
+        "odd_value": "3.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2nd Half": {
+        "odd_value": "1.93",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "17": {
+      "1:0": {
+        "odd_value": "3.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:0": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:1": {
+        "odd_value": "12.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:0": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:1": {
+        "odd_value": "29.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:2": {
+        "odd_value": "71.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:0": {
+        "odd_value": "51.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:1": {
+        "odd_value": "71.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:0": {
+        "odd_value": "3.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:1": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:2": {
+        "odd_value": "41.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:1": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:2": {
+        "odd_value": "23.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:3": {
+        "odd_value": "76.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:2": {
+        "odd_value": "23.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:3": {
+        "odd_value": "71.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:3": {
+        "odd_value": "101.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "18": {
+      "1:0": {
+        "odd_value": "4.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:0": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:1": {
+        "odd_value": "9.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:0": {
+        "odd_value": "13.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:1": {
+        "odd_value": "19.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:2": {
+        "odd_value": "46.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:0": {
+        "odd_value": "34.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:1": {
+        "odd_value": "51.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:0": {
+        "odd_value": "5.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:1": {
+        "odd_value": "6.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:2": {
+        "odd_value": "23.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:1": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:2": {
+        "odd_value": "19.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "0:3": {
+        "odd_value": "56.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:2": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1:3": {
+        "odd_value": "51.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "2:3": {
+        "odd_value": "67.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "3:3": {
+        "odd_value": "126.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "4:2": {
+        "odd_value": "91.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "5:0": {
+        "odd_value": "101.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "19": {
+      "Home/Draw": {
+        "odd_value": "1.17",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Away": {
+        "odd_value": "1.18",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Away": {
+        "odd_value": "2.30",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "20": {
+      "Home": {
+        "odd_value": "2.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "2.38",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "5.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "21": {
+      "Home": {
+        "odd_value": "1.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "2.75",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "22": {
+      "Home": {
+        "odd_value": "1.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "2.75",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "23": {
+      "Home": {
+        "odd_value": "3.70",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "19.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "24": {
+      "Over 1.5": {
+        "odd_value": "1.53",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "2.35",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 2.5": {
+        "odd_value": "2.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 2.5": {
+        "odd_value": "1.42",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.09",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "6.25",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "25": {
+      "Over 1.5": {
+        "odd_value": "3.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "1.33",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 2.5": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 2.5": {
+        "odd_value": "1.07",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "2.70",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "26": {
+      "Home -1": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -1": {
+        "odd_value": "1.70",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -1": {
+        "odd_value": "3.10",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home +1": {
+        "odd_value": "1.14",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw +1": {
+        "odd_value": "5.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away +1": {
+        "odd_value": "17.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "27": {
+      "Home -0.5": {
+        "odd_value": "2.05",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -0.5": {
+        "odd_value": "1.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home +0": {
+        "odd_value": "1.33",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away +0": {
+        "odd_value": "3.25",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "28": {
+      "Home/Draw": {
+        "odd_value": "1.14",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Away": {
+        "odd_value": "1.45",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Away": {
+        "odd_value": "1.70",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "29": {
+      "Yes": {
+        "odd_value": "3.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.25",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "30": {
+      "Yes": {
+        "odd_value": "2.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "No": {
+        "odd_value": "1.42",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "31": {
+      "Home": {
+        "odd_value": "3.10",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "32": {
+      "Odd": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Even": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "33": {
+      "Odd": {
+        "odd_value": "2.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Even": {
+        "odd_value": "1.77",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "34": {
+      "Odd": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Even": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "35": {
+      "Odd": {
+        "odd_value": "2.05",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Even": {
+        "odd_value": "1.70",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "36": {
+      "Home": {
+        "odd_value": "1.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "2.65",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "37": {
+      "0": {
+        "odd_value": "6.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1": {
+        "odd_value": "3.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "more 2": {
+        "odd_value": "1.53",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "38": {
+      "0": {
+        "odd_value": "2.70",
+        "handicap": null,
+        "suspended": 0
+      },
+      "1": {
+        "odd_value": "2.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "more 2": {
+        "odd_value": "3.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "39": {
+      "Home/Yes": {
+        "odd_value": "2.88",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Yes": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Yes": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/No": {
+        "odd_value": "3.10",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/No": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/No": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "40": {
+      "Draw/Over 1.5": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Over 1.5": {
+        "odd_value": "5.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Over 1.5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Under 1.5": {
+        "odd_value": "7.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Under 1.5": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Under 1.5": {
+        "odd_value": "15.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Over 2.5": {
+        "odd_value": "2.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Over 2.5": {
+        "odd_value": "9.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Over 2.5": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Under 2.5": {
+        "odd_value": "4.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Under 2.5": {
+        "odd_value": "5.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Under 2.5": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Over 3.5": {
+        "odd_value": "9.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Over 3.5": {
+        "odd_value": "3.45",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Over 3.5": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Under 3.5": {
+        "odd_value": "2.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Under 3.5": {
+        "odd_value": "5.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Under 3.5": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "41": {
+      "Home": {
+        "odd_value": "5.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "1.22",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "11.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "42": {
+      "Over 9.5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 9.5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "43": {
+      "Over 1.5": {
+        "odd_value": "3.60",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "1.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 0.5": {
+        "odd_value": "1.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "2.45",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "44": {
+      "Over 0.5": {
+        "odd_value": "2.45",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 0.5": {
+        "odd_value": "1.55",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "45": {
+      "Over 1.5": {
+        "odd_value": "2.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "1.40",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "46": {
+      "Over 1.5": {
+        "odd_value": "5.75",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 1.5": {
+        "odd_value": "1.10",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "47": {
+      "Odd": {
+        "odd_value": "1.95",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Even": {
+        "odd_value": "1.83",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "48": {
+      "Home": {
+        "odd_value": "1.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "3.20",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "49": {
+      "Home -1": {
+        "odd_value": "4.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -1": {
+        "odd_value": "1.80",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -1": {
+        "odd_value": "3.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home -2": {
+        "odd_value": "9.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw -2": {
+        "odd_value": "5.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away -2": {
+        "odd_value": "1.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home +1": {
+        "odd_value": "1.20",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw +1": {
+        "odd_value": "5.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away +1": {
+        "odd_value": "12.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "50": {
+      "Home": {
+        "odd_value": "1.33",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "3.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "51": {
+      "o/yes 2.5": {
+        "odd_value": "1.90",
+        "handicap": null,
+        "suspended": 0
+      },
+      "o/no 2.5": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "u/yes 2.5": {
+        "odd_value": "7.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "u/no 2.5": {
+        "odd_value": "3.10",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "52": {
+      "Over 5.5": {
+        "odd_value": "1.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 5.5": {
+        "odd_value": "1.95",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "53": {
+      "Over 3.5": {
+        "odd_value": "1.70",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 3.5": {
+        "odd_value": "1.90",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "54": {
+      "Exactly 9": {
+        "odd_value": "7.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 9": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 9": {
+        "odd_value": "2.30",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Exactly 10": {
+        "odd_value": "8.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 10": {
+        "odd_value": "2.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 10": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Exactly 11": {
+        "odd_value": "9.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 11": {
+        "odd_value": "2.90",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 11": {
+        "odd_value": "1.50",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "55": {
+      "Home": {
+        "odd_value": "1.83",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "2.95",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "5.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "56": {
+      "Home": {
+        "odd_value": "2.65",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "6.00",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "57": {
+      "Home": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw": {
+        "odd_value": "3.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "3.65",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "58": {
+      "Exactly 5": {
+        "odd_value": "5.50",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 5": {
+        "odd_value": "2.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Over 4.5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Under 4.5": {
+        "odd_value": "1.85",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "59": {
+      "Draw/Over 1.5": {
+        "odd_value": "6.25",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Over 1.5": {
+        "odd_value": "10.00",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Over 1.5": {
+        "odd_value": "3.90",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Home/Under 1.5": {
+        "odd_value": "3.55",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Draw/Under 1.5": {
+        "odd_value": "3.40",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away/Under 1.5": {
+        "odd_value": "6.50",
+        "handicap": null,
+        "suspended": 0
+      }
+    },
+    "62": {
+      "Home": {
+        "odd_value": "1.44",
+        "handicap": null,
+        "suspended": 0
+      },
+      "Away": {
+        "odd_value": "2.50",
+        "handicap": null,
+        "suspended": 0
+      }
+    }
   }
+}
