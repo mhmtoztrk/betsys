@@ -11,20 +11,25 @@ class BetType {
      * Create a new bet type
      */
     public function create($data) {
-        $type_data['api_key'] = $data['api_key'];
-        $type_data['created_at'] = time();
-        $type_data['status'] = $data['status'] ?? 'active';
+        $texts = $data['texts'] ?? NULL;
+        unset($data['texts']);
 
-        $this->db->insert('bet_types')->set($type_data);
-        $bet_type_id = $this->db->lastId();
+        $data['bet_type_id'] = self::type_id($data['bet_type_id'], $data['odd_type']);
+        $data['evaluate_method'] = $data['evaluate_method'] ?? 0;
+        $data['status'] = $data['status'] ?? 'passive';
+        $data['created_at'] = $data['created_at'] ?? time();
 
-        if (!empty($data['texts'])) {
-            foreach ($data['texts'] as $lang => $lang_texts) {
-                $this->create_text($bet_type_id, $lang, $lang_texts);
+        $this->db->insert('bet_types')->set($data);
+
+        if ($texts) {
+            foreach ($texts as $lang => $lang_texts) {
+                $this->create_text($data['bet_type_id'], $lang, $lang_texts);
             }
         }
 
-        return $bet_type_id;
+        $this->create_caches();
+
+        return $data['bet_type_id'];
     }
 
     /**
@@ -39,6 +44,11 @@ class BetType {
             'created_at' => time(),
         ];
         $this->db->insert('bet_type_texts')->set($data);
+    }
+
+    public function get_list($type){
+        $c = new Cache();
+        return $c->get('bet_types/'.$type);
     }
 
     /**
@@ -67,6 +77,8 @@ class BetType {
 
         $data['updated_at'] = time();
         $this->db->update('bet_types')->where('bet_type_id', $bet_type_id)->set($data);
+        
+        $this->create_caches();
     }
 
     /**
@@ -114,14 +126,16 @@ class BetType {
      * Activate a bet type
      */
     public function activate($bet_type_id) {
-        return $this->update($bet_type_id, ['status' => 'active']);
+        $this->update($bet_type_id, ['status' => 'active']);
+        $this->create_caches();
     }
 
     /**
      * Deactivate a bet type
      */
     public function deactivate($bet_type_id) {
-        return $this->update($bet_type_id, ['status' => 'passive']);
+        $this->update($bet_type_id, ['status' => 'passive']);
+        $this->create_caches();
     }
 
     /**
@@ -145,7 +159,7 @@ class BetType {
         // Initialize query to get all bet types with texts using JOIN
         $query = $this->db->from('bet_types');
         $query->leftJoin('bet_type_texts', '%s.bet_type_id = %s.bet_type_id');
-        $query->select('*');
+        $query->select('bet_types.*, bet_type_texts.lang, bet_type_texts.name, bet_type_texts.description');
         $query->where('lang', $lang);
 
         // Filter by status if provided
@@ -160,64 +174,17 @@ class BetType {
         // Prepare result array with texts
         $result = [];
         foreach ($bet_types as $type) {
-            $result[] = [
-                'bet_type_id' => $type['bet_type_id'],
-                'api_key' => $type['api_key'],
-                'status' => $type['status'],
-                'created_at' => $type['created_at'],
-                'texts' => [
-                    'name' => $type['name'],
-                    'description' => $type['description']
-                ],
+            $type['texts'] = [
+                'name' => $type['name'],
+                'description' => $type['description']
             ];
+            unset($type['name'], $type['description']);
+
+            $result[] = $type;
         }
 
         return $result;
     }
-
-    /**
-     * Get the mapping of bet types from the database.
-     * 
-     * This method retrieves all active bet types from the database and returns a mapping array
-     * where the keys are the bet type names (as received from the API) and the values are the 
-     * corresponding bet type IDs from the local system. This map is used to efficiently translate 
-     * API bet type names to local database IDs without performing multiple queries.
-     * 
-     * The method uses a static variable to store the map after the first call, 
-     * ensuring that the database is only queried once per request.
-     * 
-     * Example returned array:
-     * [
-     *     'Match Winner' => 1,
-     *     'Goals Over/Under' => 2,
-     *     'Double Chance' => 3,
-     * ]
-     * 
-     * @return array Associative array where keys are bet type names and values are bet type IDs.
-     */
-    public static function get_bet_type_map() {
-        // Static cache to avoid repeated DB queries
-        static $bet_type_map = null;
-    
-        // If the map is already generated, return it
-        if ($bet_type_map !== null) {
-            return $bet_type_map;
-        }
-    
-        // Initialize DB instance
-        $db = new DB();
-    
-        // Fetch all bet types from the database
-        $bet_types = $db->from('bet_types')->select(['api_key', 'bet_type_id'])->all();
-    
-        // Prepare the map: api_key => bet_type_id
-        $bet_type_map = [];
-        foreach ($bet_types as $type) {
-            $bet_type_map[$type['api_key']] = $type['bet_type_id'];
-        }
-    
-        return $bet_type_map;
-    }    
 
     /**
      * Get a single bet type by ID with text in the specified language
@@ -261,6 +228,7 @@ class BetType {
     public function delete($bet_type_id) {
         $this->db->delete('bet_types')->where('bet_type_id', $bet_type_id)->done();
         $this->db->delete('bet_type_texts')->where('bet_type_id', $bet_type_id)->done();
+        $this->create_caches();
     }
 
     /**
@@ -282,6 +250,42 @@ class BetType {
         $this->update($values['bet_type_id'], $save);
 
         JS::st1(PANEL_PATH.'/bet-types', t('Bet_type_saved'));
+    }
+
+    public static function type_id($id, $odd_type){
+        $odd_type = strtolower($odd_type);
+        $alias = $odd_type === 'pre_match' ? 'p' : 'l';
+        return $alias . sprintf('%03d', $id);
+    }
+
+    public function create_caches(){
+
+        $c = new Cache();
+
+        foreach (ACTIVE_LANGS as $lang) {
+            $types = $this->get_all_with_texts($lang);
+            $c->save($types, 'bet_types/all_'.$lang);
+
+            $pre_match_actives = $live_actives = [];
+
+            foreach ($types as $type) {
+                if ($type['status'] == 'active' && $type['evaluate_method']) {
+                    $item = [
+                        'name' => $type['texts']['name'],
+                        'nadescriptionme' => $type['texts']['description'],
+                    ];
+                    if ($type['odd_type'] == 'pre_match') {
+                        $pre_match_actives[$type['bet_type_id']] = $item;
+                    }elseif ($type['odd_type'] == 'live') {
+                        $live_actives[$type['bet_type_id']] = $item;
+                    }
+                }
+            }
+            
+            $c->save($pre_match_actives, 'bet_types/pre_match_actives_'.$lang);
+            $c->save($live_actives, 'bet_types/live_actives_'.$lang);
+        }
+        
     }
 }
 
