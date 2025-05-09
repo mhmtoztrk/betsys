@@ -1,0 +1,4094 @@
+[
+    {
+      "id": "l025",
+      "name": "Match Goals",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.222",
+          "handicap": "1.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "4.333",
+          "handicap": "1.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l090",
+      "name": "2nd Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "3.5",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.285",
+          "handicap": "50",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l045",
+      "name": "Race to the 7th corner?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Neither",
+          "odd": "1.062",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l033",
+      "name": "Asian Handicap",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "2.5",
+          "handicap": "0.25",
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.5",
+          "handicap": "-0.25",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l031",
+      "name": "Total Corners (3way) (2nd Half)",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.375",
+          "handicap": "5",
+          "suspended": false
+        },
+        {
+          "value": "Exactly",
+          "odd": "5",
+          "handicap": "5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "2",
+          "handicap": "5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l037",
+      "name": "Total Corners",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2",
+          "handicap": "5.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.727",
+          "handicap": "5.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l021",
+      "name": "3-Way Handicap",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "2",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "2.625",
+          "handicap": "-1",
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "4",
+          "handicap": "-1",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l030",
+      "name": "Both Teams To Score (1st Half)",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.071",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l017",
+      "name": "Asian Handicap (1st Half)",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "1.525",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "2.425",
+          "handicap": "-1",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l076",
+      "name": "Corners European Handicap",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "2.1",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "6",
+          "handicap": "-1",
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "2.2",
+          "handicap": "-1",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l036",
+      "name": "Over/Under Line",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.3",
+          "handicap": "2.75",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.6",
+          "handicap": "2.75",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l152",
+      "name": "Home Total Shots",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.833",
+          "handicap": "11.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.833",
+          "handicap": "11.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l028",
+      "name": "Home Team  to Score in Both Halves",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.03",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l035",
+      "name": "To Win 2nd Half",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "2.1",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l049",
+      "name": "Over/Under (1st Half)",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "6",
+          "handicap": "1.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.125",
+          "handicap": "1.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l072",
+      "name": "Double Chance",
+      "values": [
+        {
+          "value": "Home or Draw",
+          "odd": "2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away or Draw",
+          "odd": "1.166",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Home or Away",
+          "odd": "1.3",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l204",
+      "name": "Corners Asian Handicap (1st Half)",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.375",
+          "handicap": "0.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.55",
+          "handicap": "0.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l065",
+      "name": "Next 10 Minutes Total",
+      "values": [
+        {
+          "value": "Goals/Over  0.5",
+          "odd": "4",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Goals/Under  0.5",
+          "odd": "1.222",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Corners 3-Way/Over  0.5",
+          "odd": "1.615",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Corners 3-Way/Under  0.5",
+          "odd": "2.2",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Goal Kicks/Over  1.5",
+          "odd": "2.5",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Goal Kicks/Under  1.5",
+          "odd": "1.5",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Free Kicks/Over  2.5",
+          "odd": "1.615",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Free Kicks/Under  2.5",
+          "odd": "2.2",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Throw-Ins/Over  3.5",
+          "odd": "1.8",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Throw-Ins/Under  3.5",
+          "odd": "1.909",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Cards/Over  0.5",
+          "odd": "2.75",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "Cards/Under  0.5",
+          "odd": "1.4",
+          "handicap": "50",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l118",
+      "name": "Player to be Sent Off",
+      "values": [
+        {
+          "value": "Casemiro",
+          "odd": "29",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Julen Agirrezabala",
+          "odd": "81",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andre Onana",
+          "odd": "81",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l055",
+      "name": "Correct Score (1st Half)",
+      "values": [
+        {
+          "value": "1-0",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "2-0",
+          "odd": "29",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "2-1",
+          "odd": "126",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3-0",
+          "odd": "101",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "3-1",
+          "odd": "251",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "3-2",
+          "odd": "301",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "4-0",
+          "odd": "301",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "4-1",
+          "odd": "301",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "5-0",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "0-0",
+          "odd": "1.5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "1-1",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2-2",
+          "odd": "201",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "0-1",
+          "odd": "1.125",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-2",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-2",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-3",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-3",
+          "odd": "201",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "2-3",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l010",
+      "name": "To Qualify",
+      "values": [
+        {
+          "value": 1,
+          "odd": "1.015",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l020",
+      "name": "Match Corners",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.5",
+          "handicap": "4",
+          "suspended": false
+        },
+        {
+          "value": "Exactly",
+          "odd": "5.5",
+          "handicap": "4",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "4",
+          "handicap": "4",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l058",
+      "name": "Home Team Goals",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "10",
+          "handicap": "2.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.062",
+          "handicap": "2.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l048",
+      "name": "Draw No Bet",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "3.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.25",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l083",
+      "name": "Game Won In Extra Time",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.01",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l062",
+      "name": "Last Team to Score (3 way)",
+      "values": [
+        {
+          "value": 1,
+          "odd": "1.8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": 2,
+          "odd": "1.909",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l064",
+      "name": "Half Time/Full Time",
+      "values": [
+        {
+          "value": "1/1",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1/X",
+          "odd": "401",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1/2",
+          "odd": "501",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "X/1",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "X/X",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "X/2",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2/1",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2/X",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2/2",
+          "odd": "1.727",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l148",
+      "name": "Player Shots",
+      "values": [
+        {
+          "value": "Alex Berenguer/Over 0.5",
+          "odd": "1.1",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Casemiro/Over 0.5",
+          "odd": "1.533",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 0.5",
+          "odd": "1.363",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Patrick Dorgu/Over 0.5",
+          "odd": "1.444",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Bruno Fernandes/Over 0.5",
+          "odd": "1.062",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alejandro Garnacho/Over 0.5",
+          "odd": "1.1",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 0.5",
+          "odd": "1.8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel/Over 0.5",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund/Over 0.5",
+          "odd": "1.533",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 0.5",
+          "odd": "2.2",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Victor Lindelof/Over 0.5",
+          "odd": "2.75",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Harry Maguire/Over 0.5",
+          "odd": "2.1",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui/Over 0.5",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez/Over 0.5",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta/Over 0.5",
+          "odd": "3.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 0.5",
+          "odd": "1.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 0.5",
+          "odd": "1.833",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray/Over 0.5",
+          "odd": "3",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro/Over 0.5",
+          "odd": "2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri/Over 0.5",
+          "odd": "2.2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer/Over 1.5",
+          "odd": "1.142",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Casemiro/Over 1.5",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 1.5",
+          "odd": "1.363",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 1.5",
+          "odd": "1.533",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 1.5",
+          "odd": "1.142",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 1.5",
+          "odd": "1.444",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 1.5",
+          "odd": "4.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel/Over 1.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund/Over 1.5",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 1.5",
+          "odd": "2.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof/Over 1.5",
+          "odd": "3.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 1.5",
+          "odd": "6.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui/Over 1.5",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez/Over 1.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta/Over 1.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 1.5",
+          "odd": "2.625",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 1.5",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray/Over 1.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro/Over 1.5",
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri/Over 1.5",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer/Over 2.5",
+          "odd": "1.3",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 2.5",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 2.5",
+          "odd": "2.625",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 2.5",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 2.5",
+          "odd": "1.615",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 2.5",
+          "odd": "2.375",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 2.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Rasmus Hojlund/Over 2.5",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 2.5",
+          "odd": "8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Unai Nunez/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Maroan Sannadi/Over 2.5",
+          "odd": "6.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 2.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Leny Yoro/Over 2.5",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer/Over 3.5",
+          "odd": "2.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 3.5",
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 3.5",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 3.5",
+          "odd": "2.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 3.5",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Rasmus Hojlund/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 3.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Leny Yoro/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Berchiche Yuri/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer/Over 4.5",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 4.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alvaro Djalo/Over 4.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 4.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 4.5",
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 4.5",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 4.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Rasmus Hojlund/Over 4.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Maroan Sannadi/Over 4.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer/Over 5.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 5.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Bruno Fernandes/Over 5.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 5.5",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 5.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Bruno Fernandes/Over 6.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 6.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alejandro Garnacho/Over 7.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Victor Lindelof/Over 2.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer/Over 6.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 7.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer/Over 7.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l057",
+      "name": "Away Team Clean Sheet",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l061",
+      "name": "Race to the 5th corner?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "3.6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Neither",
+          "odd": "1.4",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l063",
+      "name": "Anytime Goal Scorer",
+      "values": [
+        {
+          "value": "Bruno Fernandes",
+          "odd": "3.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "11",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro",
+          "odd": "12",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "29",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No 1st goal",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "No 2nd goal",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l150",
+      "name": "Total shots on goal",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2",
+          "handicap": "6.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.727",
+          "handicap": "6.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l091",
+      "name": "Away 2nd Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "2.75",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.4",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l153",
+      "name": "Player Shots on Targets",
+      "values": [
+        {
+          "value": "Alex Berenguer/Over 0.5",
+          "odd": "2.2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 0.5",
+          "odd": "3.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 0.5",
+          "odd": "2.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 0.5",
+          "odd": "3.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 0.5",
+          "odd": "1.666",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 0.5",
+          "odd": "1.615",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 0.5",
+          "odd": "2.625",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel/Over 0.5",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund/Over 0.5",
+          "odd": "2.1",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 0.5",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Victor Lindelof/Over 0.5",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 0.5",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui/Over 0.5",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez/Over 0.5",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta/Over 0.5",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 0.5",
+          "odd": "3.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 0.5",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray/Over 0.5",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro/Over 0.5",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri/Over 0.5",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer/Over 1.5",
+          "odd": "8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 1.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 1.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 1.5",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 1.5",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 1.5",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 1.5",
+          "odd": "11",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund/Over 1.5",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 1.5",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 1.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Maroan Sannadi/Over 1.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 1.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro/Over 1.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Bruno Fernandes/Over 2.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 2.5",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Rasmus Hojlund/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 2.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Bruno Fernandes/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alejandro Garnacho/Over 3.5",
+          "odd": "21",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l050",
+      "name": "1x2 - 60 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "3.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.25",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l060",
+      "name": "To Score 3 or More",
+      "values": [
+        {
+          "value": "Bruno Fernandes",
+          "odd": "101",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "101",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "126",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "201",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "251",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "251",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "351",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "501",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro",
+          "odd": "501",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l078",
+      "name": "Corners 1x2",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "3",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.666",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l056",
+      "name": "1x2 - 70 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "11",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.363",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l042",
+      "name": "Race to the 3rd corner?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "3.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "1.833",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Neither",
+          "odd": "3.75",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l085",
+      "name": "Which team will score the 2nd goal?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "1.8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "3",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l113",
+      "name": "Method of 2nd Goal",
+      "values": [
+        {
+          "value": "Shot",
+          "odd": "1.727",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Header",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Penalty",
+          "odd": "8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Free kick",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Own goal",
+          "odd": "29",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l043",
+      "name": "Both Teams To Score (2nd Half)",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "3.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.285",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l053",
+      "name": "To Score 2 or More",
+      "values": [
+        {
+          "value": "Bruno Fernandes",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "81",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "81",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "101",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "101",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro",
+          "odd": "101",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "126",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "201",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "301",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "251",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "251",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "351",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l082",
+      "name": "Game Won After Penalties Shootout",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "23",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.012",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l054",
+      "name": "Home 1st Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "1.833",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.833",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l024",
+      "name": "Over/Under Line (1st Half)",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "5.9",
+          "handicap": "1.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.13",
+          "handicap": "1.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l039",
+      "name": "Away Team Goals",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "26",
+          "handicap": "3.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.01",
+          "handicap": "3.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l115",
+      "name": "Player to be Booked",
+      "values": [
+        {
+          "value": "Casemiro",
+          "odd": "2.875",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "2.625",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "2.625",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "3.6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "4.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "4.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Julen Agirrezabala",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andre Onana",
+          "odd": "4.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "8",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l027",
+      "name": "Home Team Score a Goal (2nd Half)",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "1.571",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "2.25",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l067",
+      "name": "How many goals will Home Team score?",
+      "values": [
+        {
+          "value": "No goal",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 1,
+          "odd": "2.375",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "4.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3 or more",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l116",
+      "name": "Action In Next 1 Minutes",
+      "values": [
+        {
+          "value": "Yes_Goal",
+          "odd": "23",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Corner",
+          "odd": "10",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Goal Kick",
+          "odd": "6.5",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Free Kick",
+          "odd": "3.5",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Throw In",
+          "odd": "3",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Card",
+          "odd": "17",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "Yes_Penalty Awarded",
+          "odd": "101",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Goal",
+          "odd": "1.012",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Corner",
+          "odd": "1.062",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Goal Kick",
+          "odd": "1.111",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Free Kick",
+          "odd": "1.285",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Throw In",
+          "odd": "1.363",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Card",
+          "odd": "1.025",
+          "handicap": "42",
+          "suspended": false
+        },
+        {
+          "value": "No_Penalty Awarded",
+          "odd": "1",
+          "handicap": "42",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l026",
+      "name": "European Handicap (1st Half)",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "8.5",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "1.1",
+          "handicap": "-1",
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "12",
+          "handicap": "-1",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l041",
+      "name": "1x2 - 50 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.111",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l069",
+      "name": "Both Teams to Score",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "1.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l019",
+      "name": "1x2 (1st Half)",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "126",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.062",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l081",
+      "name": "Method of Qualification",
+      "values": [
+        {
+          "value": "to Qualify in 90 Minutes/1",
+          "odd": "1.035",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "to Qualify in Extra Time/1",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "to Qualify after Penalties/1",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "to Qualify in 90 Minutes/2",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "to Qualify in Extra Time/2",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "to Qualify after Penalties/2",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l040",
+      "name": "Total Corners (3 way) (1st Half)",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "9",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Exactly",
+          "odd": "3.1",
+          "handicap": "1",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.533",
+          "handicap": "1",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l046",
+      "name": "Goal Scorer",
+      "values": [
+        {
+          "value": "Bruno Fernandes",
+          "odd": "6.5",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund",
+          "odd": "7.5",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho",
+          "odd": "9.5",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi",
+          "odd": "12",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Alex Berenguer",
+          "odd": "13",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo",
+          "odd": "13",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez",
+          "odd": "15",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu",
+          "odd": "19",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Casemiro",
+          "odd": "21",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire",
+          "odd": "29",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte",
+          "odd": "29",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro",
+          "odd": "29",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar",
+          "odd": "34",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui",
+          "odd": "34",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta",
+          "odd": "34",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez",
+          "odd": "41",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof",
+          "odd": "51",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri",
+          "odd": "51",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel",
+          "odd": "51",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray",
+          "odd": "67",
+          "handicap": "2",
+          "suspended": false
+        },
+        {
+          "value": "No 2nd goal",
+          "odd": "4.333",
+          "handicap": "2",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l155",
+      "name": "Player Assists",
+      "values": [
+        {
+          "value": "Alex Berenguer/Over 0.5",
+          "odd": "11",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Casemiro/Over 0.5",
+          "odd": "8.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvaro Djalo/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Patrick Dorgu/Over 0.5",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Bruno Fernandes/Over 0.5",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alejandro Garnacho/Over 0.5",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Gomez/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Andoni Gorosabel/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Rasmus Hojlund/Over 0.5",
+          "odd": "10",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Mikel Jauregizar/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Victor Lindelof/Over 0.5",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Harry Maguire/Over 0.5",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Noussair Mazraoui/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Unai Nunez/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Inigo Ruiz de Galarreta/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Maroan Sannadi/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Manuel Ugarte/Over 0.5",
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Alvarez Yeray/Over 0.5",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Leny Yoro/Over 0.5",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Berchiche Yuri/Over 0.5",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l119",
+      "name": "Total Cards",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.1",
+          "handicap": "5.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.666",
+          "handicap": "5.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l044",
+      "name": "Race to the 9th corner?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Neither",
+          "odd": "1.01",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l032",
+      "name": "Asian Corners",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.025",
+          "handicap": "5.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.775",
+          "handicap": "5.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l023",
+      "name": "Final Score",
+      "values": [
+        {
+          "value": "1-0",
+          "odd": "4.5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "2-0",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "2-1",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3-0",
+          "odd": "17",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "3-1",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3-2",
+          "odd": "29",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "4-0",
+          "odd": "41",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "4-1",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "4-2",
+          "odd": "67",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "4-3",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "5-0",
+          "odd": "101",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "5-1",
+          "odd": "126",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "5-2",
+          "odd": "201",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "5-3",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "6-0",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "6-1",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "6-2",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "0-0",
+          "odd": "5",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "1-1",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2-2",
+          "odd": "12",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3-3",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "4-4",
+          "odd": "351",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "0-1",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-2",
+          "odd": "6.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-2",
+          "odd": "6.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-3",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-3",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2-3",
+          "odd": "34",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-4",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-4",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2-4",
+          "odd": "81",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3-4",
+          "odd": "151",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "0-5",
+          "odd": "201",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "1-5",
+          "odd": "201",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "2-5",
+          "odd": "301",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "7-0",
+          "odd": "401",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "7-1",
+          "odd": "401",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l151",
+      "name": "Away Total Shots",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.666",
+          "handicap": "10.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "2.1",
+          "handicap": "10.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l016",
+      "name": "How many goals will Away Team score?",
+      "values": [
+        {
+          "value": "No goal",
+          "odd": "1.833",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": 1,
+          "odd": "1.727",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "2.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "3 or more",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l029",
+      "name": "Result / Both Teams To Score",
+      "values": [
+        {
+          "value": "Home/Yes",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away/Yes",
+          "odd": "4.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw/Yes",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Home/No",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Away/No",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw/No",
+          "odd": "0",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l068",
+      "name": "Goals Odd/Even",
+      "values": [
+        {
+          "value": "Odd",
+          "odd": "1.8",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Even",
+          "odd": "1.909",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l149",
+      "name": "Total Shots",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.727",
+          "handicap": "22.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "2",
+          "handicap": "22.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l156",
+      "name": "Away Total shots on goal",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "2.2",
+          "handicap": "3.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "1.615",
+          "handicap": "3.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l059",
+      "name": "Fulltime Result",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.727",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l052",
+      "name": "1x2 - 80 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "3.2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "1.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l154",
+      "name": "Home Total shots on goal",
+      "values": [
+        {
+          "value": "Over",
+          "odd": "1.666",
+          "handicap": "2.5",
+          "suspended": false
+        },
+        {
+          "value": "Under",
+          "odd": "2.1",
+          "handicap": "2.5",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l070",
+      "name": "Away Team Score a Goal (2nd Half)",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "2.2",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.615",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l038",
+      "name": "Away Team to Score in Both Halves",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "13",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.04",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l080",
+      "name": "Method of 1st Goal",
+      "values": [
+        {
+          "value": "Shot",
+          "odd": "1.666",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Header",
+          "odd": "6.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Penalty",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Free kick",
+          "odd": "21",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Own goal",
+          "odd": "26",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l018",
+      "name": "1st Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "3",
+          "handicap": "50",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.363",
+          "handicap": "50",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l047",
+      "name": "Away 1st Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "1.833",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.833",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l066",
+      "name": "Home Team Clean Sheet",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "2.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l073",
+      "name": "Which team will score the 1st goal?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "2.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "5.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "2.05",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l117",
+      "name": "First Action In Next 5 Minutes",
+      "values": [
+        {
+          "value": "Throw In",
+          "odd": "1.909",
+          "handicap": "45",
+          "suspended": false
+        },
+        {
+          "value": "Free Kick",
+          "odd": "4",
+          "handicap": "45",
+          "suspended": false
+        },
+        {
+          "value": "Goal Kick",
+          "odd": "10",
+          "handicap": "45",
+          "suspended": false
+        },
+        {
+          "value": "Corner",
+          "odd": "13",
+          "handicap": "45",
+          "suspended": false
+        },
+        {
+          "value": "Penalty Awarded",
+          "odd": "101",
+          "handicap": "45",
+          "suspended": false
+        },
+        {
+          "value": "No Set Piece",
+          "odd": "6.5",
+          "handicap": "45",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l130",
+      "name": "Method of 3rd Goal",
+      "values": [
+        {
+          "value": "Shot",
+          "odd": "3",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Header",
+          "odd": "12",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Penalty",
+          "odd": "13",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Free kick",
+          "odd": "34",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "Own goal",
+          "odd": "41",
+          "handicap": null,
+          "suspended": true
+        },
+        {
+          "value": "No goal",
+          "odd": "1.615",
+          "handicap": null,
+          "suspended": true
+        }
+      ]
+    },
+    {
+      "id": "l092",
+      "name": "Which team will score the 3rd goal?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "3.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "1.615",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "4.75",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l094",
+      "name": "3rd Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "6",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.111",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l128",
+      "name": "Away 3rd Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "8.5",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "1.05",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l112",
+      "name": "Which team will score the 5th goal?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "6",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "1.25",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l145",
+      "name": "Method of 5th Goal",
+      "values": [
+        {
+          "value": "Shot",
+          "odd": "4.75",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Header",
+          "odd": "17",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Penalty",
+          "odd": "19",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Free kick",
+          "odd": "41",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Own goal",
+          "odd": "51",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "1.25",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l127",
+      "name": "Which team will score the 6th goal?",
+      "values": [
+        {
+          "value": 1,
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "No goal",
+          "odd": "1.03",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": 2,
+          "odd": "15",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l079",
+      "name": "1x2 - 20 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "9",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "1.166",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l022",
+      "name": "1x2 - 30 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "1.444",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "4.333",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l034",
+      "name": "1x2 - 40 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "4",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "1.727",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "3.4",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l077",
+      "name": "1x2 - 10 minutes",
+      "values": [
+        {
+          "value": "Home",
+          "odd": "7.5",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Draw",
+          "odd": "1.222",
+          "handicap": null,
+          "suspended": false
+        },
+        {
+          "value": "Away",
+          "odd": "7",
+          "handicap": null,
+          "suspended": false
+        }
+      ]
+    },
+    {
+      "id": "l095",
+      "name": "Home 2nd Goal in Interval",
+      "values": [
+        {
+          "value": "Yes",
+          "odd": "1.4",
+          "handicap": "80",
+          "suspended": false
+        },
+        {
+          "value": "No",
+          "odd": "2.75",
+          "handicap": "80",
+          "suspended": false
+        }
+      ]
+    }
+  ]
